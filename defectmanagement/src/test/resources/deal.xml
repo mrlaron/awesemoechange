@@ -1,0 +1,2841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trade-query-result xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <query-type>public</query-type>
+  <query-name>JPTCoalOptionsOptimate</query-name>
+  <time-stamp>2010-09-10T15:13+02:00</time-stamp>
+  <deals>
+    <deal-id xlink:href="http://63.240.29.136/xenon/nuon/deals/831865/4/confirm" xlink:type="simple"><deal id="831865">
+  <header type="physical-otc-trade-header">
+    <otc-broker id="172" name="Spectron" xlink:href="http://63.240.29.136/xenon/nuon/otc-brokers/172" xlink:type="simple"/>
+    <principal-confirm-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/102" xlink:type="simple"/>
+    <cpty-confirm-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/165" xlink:type="simple"/>
+    <counterparty id="139" name="Deutsche Bank AG  London Branch" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/139" xlink:type="simple"/>
+    <marketer name="[NONE]"/>
+    <cpty-contact/>
+    <cpty-settlement-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/165" xlink:type="simple"/>
+    <principal-settlement-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/102" xlink:type="simple"/>
+    <mta name="[NONE]"/>
+    <counterparty-trader/>
+    <message-type/>
+    <product-type/>
+    <settle>true</settle>
+    <confirm>true</confirm>
+    <internal>false</internal>
+    <invoice-notes/>
+    <confirm-notes/>
+    <version-number>4</version-number>
+    <internal-reference>Option DB Call Spread API2 Cal 11</internal-reference>
+    <deal-modification-date>2010-09-08T13:06+02:00</deal-modification-date>
+    <comment/>
+    <principal id="103" name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <trade-time>2010-02-04T16:14+01:00</trade-time>
+    <portfolio name="Cross Commodity Options" xlink:href="http://63.240.29.136/xenon/nuon/portfolios/1038" xlink:type="simple"/>
+    <trader id="793" name="Pierre Allard" xlink:href="http://63.240.29.136/xenon/nuon/contacts/793" xlink:type="simple"/>
+    <owner id="793" name="Pierre Allard" xlink:href="http://63.240.29.136/xenon/nuon/contacts/793" xlink:type="simple"/>
+    <strategy name="[NONE]"/>
+    <trade-task/>
+    <trading-purpose name="[NONE]"/>
+    <delivery-start-date>2011-01-03T00:00+01:00</delivery-start-date>
+    <delivery-end-date>2011-12-31T00:00+01:00</delivery-end-date>
+    <unadjusted-delivery-start-date>2011-01-01T00:00+01:00</unadjusted-delivery-start-date>
+    <unadjusted-delivery-end-date>2011-12-31T00:00+01:00</unadjusted-delivery-end-date>
+    <total-broker-fee>
+      <currency>USD</currency>
+      <number>0.0</number>
+    </total-broker-fee>
+    <flex-deal>false</flex-deal>
+    <broker-confirm-status>Unconfirmed</broker-confirm-status>
+    <incoming-confirm-status>Unconfirmed</incoming-confirm-status>
+    <outgoing-confirm-status>Unconfirmed</outgoing-confirm-status>
+  </header>
+  <trade id="831865">
+    <buyer-counterparty name="Deutsche Bank AG  London Branch" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/139" xlink:type="simple"/>
+    <seller-counterparty name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <fixed-price-payer-counterparty name="Deutsche Bank AG  London Branch" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/139" xlink:type="simple"/>
+    <floating-price-payer-counterparty name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <underlying-category name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/underlying-categories/109" xlink:type="simple"/>
+    <total-price>
+      <currency>USD</currency>
+      <number>208199.9999997918</number>
+    </total-price>
+    <external-last-modified/>
+    <trade-type id="16" physical="true" type="option-on-fixed-price-physical-flow">
+      <option-terms>
+        <buy-sell>Sell</buy-sell>
+        <put-call>Call</put-call>
+        <american-european>European</american-european>
+        <expiration-date-range-structure type="single-date-range-structure">
+          <expiration-date type="date">2010-12-02T00:00+01:00</expiration-date>
+        </expiration-date-range-structure>
+        <underlying-terms type="physical-flow-sale-terms">
+          <scheduled>false</scheduled>
+          <underlying-def name="European Coal - USD" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/281" xlink:type="simple"/>
+          <volume-structure type="per-block">
+            <unit type="physical-unit">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+            </unit>
+            <unit-volume>230.769230769</unit-volume>
+            <total-volume>59999.99999994</total-volume>
+          </volume-structure>
+          <number-of-settlements>12</number-of-settlements>
+          <unit-value-structure type="same-price-for-every-cashflow">
+            <price>0.0</price>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+          </unit-value-structure>
+          <delivery-structure type="load-shape">
+            <block-size name="1 Month" xlink:href="http://63.240.29.136/xenon/nuon/block-sizes/3" xlink:type="simple"/>
+            <load-shape name="European Coal" xlink:href="http://63.240.29.136/xenon/nuon/load-shapes/103" xlink:type="simple"/>
+            <holiday-schedules-overridden>false</holiday-schedules-overridden>
+            <holiday-schedules>
+              <holiday-schedule name="Platts Product - Europe" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/109" xlink:type="simple"/>
+              <holiday-schedule name="Netherlands" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/115" xlink:type="simple"/>
+            </holiday-schedules>
+            <start-date>2011-01-03T00:00+01:00</start-date>
+            <end-date>2011-12-31T00:00+01:00</end-date>
+            <unadjusted-start-date>2011-01-01T00:00+01:00</unadjusted-start-date>
+            <unadjusted-end-date>2011-12-31T00:00+01:00</unadjusted-end-date>
+          </delivery-structure>
+          <cashflow-terms type="fixed-cashflow-terms">
+            <underlying-def/>
+            <volume-structure type="per-block">
+              <unit type="physical-unit">
+                <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+                <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              </unit>
+              <unit-volume>230.769230769</unit-volume>
+              <total-volume>0.0</total-volume>
+            </volume-structure>
+            <buy-sell>buy</buy-sell>
+            <unit-value-structure type="same-price-for-every-cashflow">
+              <price>0.0</price>
+              <unit type="price">
+                <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+                <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+                <currency>USD</currency>
+              </unit>
+            </unit-value-structure>
+            <payment-structure type="relative-to-block">
+              <relative-offset-data>
+                <time-zone-id>GMT</time-zone-id>
+                <time-of-day>
+                  <hours>0</hours>
+                  <minutes>0</minutes>
+                  <seconds>0</seconds>
+                  <milliseconds>0</milliseconds>
+                </time-of-day>
+                <days>5</days>
+                <months>0</months>
+                <business-days>true</business-days>
+                <roll-type>Next</roll-type>
+              </relative-offset-data>
+              <holiday-schedules>
+                <holiday-schedule name="UK Banking" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/103" xlink:type="simple"/>
+              </holiday-schedules>
+            </payment-structure>
+          </cashflow-terms>
+          <buy-sell>Sell</buy-sell>
+          <firmness name="Firm" xlink:href="http://63.240.29.136/xenon/nuon/firmnesses/100" xlink:type="simple"/>
+          <delivery-location id="115" name="Buggenum" xlink:href="http://63.240.29.136/xenon/nuon/delivery-locations/115" xlink:type="simple"/>
+          <balancing-agent name="[NONE]"/>
+          <counterparty-balancing-agent name="Deutsche Bank AG  London Branch" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/139" xlink:type="simple"/>
+          <counterparty-network-code/>
+        </underlying-terms>
+        <strike-terms type="fixed-cashflow-terms">
+          <underlying-def name="European Coal - USD" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/281" xlink:type="simple"/>
+          <volume-structure type="dependent">
+            <unit type="physical-unit">
+              <commodity-definition name="Natural Gas -- TranscoUK Grade" xlink:href="http://63.240.29.136/xenon/nuon/commodities/100" xlink:type="simple"/>
+              <metric abbreviated-name="Therms" name="Therms" xlink:href="http://63.240.29.136/xenon/nuon/metrics/80" xlink:type="simple"/>
+            </unit>
+            <total-volume>0.0</total-volume>
+          </volume-structure>
+          <buy-sell>buy</buy-sell>
+          <unit-value-structure type="same-price-for-every-cashflow">
+            <price>110.0</price>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+          </unit-value-structure>
+          <payment-structure type="relative-to-block">
+            <relative-offset-data>
+              <time-zone-id>GMT</time-zone-id>
+              <time-of-day>
+                <hours>0</hours>
+                <minutes>0</minutes>
+                <seconds>0</seconds>
+                <milliseconds>0</milliseconds>
+              </time-of-day>
+              <days>5</days>
+              <months>0</months>
+              <business-days>true</business-days>
+              <roll-type>Next</roll-type>
+            </relative-offset-data>
+            <holiday-schedules>
+              <holiday-schedule name="UK Banking" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/103" xlink:type="simple"/>
+            </holiday-schedules>
+          </payment-structure>
+        </strike-terms>
+        <premium-terms>
+          <underlying-def name="European Coal - USD" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/281" xlink:type="simple"/>
+          <amount>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+            <number>3.47</number>
+          </amount>
+          <per-unit>true</per-unit>
+          <total-premium>
+            <currency>USD</currency>
+            <number>208199.9999997918</number>
+          </total-premium>
+          <payment-structure type="relative-to-trade-date">
+            <relative-offset-data>
+              <time-zone-id>GMT</time-zone-id>
+              <time-of-day>
+                <hours>0</hours>
+                <minutes>0</minutes>
+                <seconds>0</seconds>
+                <milliseconds>0</milliseconds>
+              </time-of-day>
+              <days>3</days>
+              <months>0</months>
+              <business-days>true</business-days>
+              <roll-type>Next</roll-type>
+            </relative-offset-data>
+            <holiday-schedules>
+              <holiday-schedule name="UK Banking" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/103" xlink:type="simple"/>
+            </holiday-schedules>
+          </payment-structure>
+          <pay-date>2010-02-09T01:00+01:00</pay-date>
+        </premium-terms>
+        <granularity>Single Expiry</granularity>
+        <exercise-type>Automatic</exercise-type>
+      </option-terms>
+      <otc-broker-fee type="per-unit">
+        <total-amount>
+          <currency>USD</currency>
+          <number>0.0</number>
+        </total-amount>
+        <broker-amount>
+          <unit type="price">
+            <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+            <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+            <currency>USD</currency>
+          </unit>
+          <number>0.0</number>
+        </broker-amount>
+        <use-rate-category>false</use-rate-category>
+      </otc-broker-fee>
+    </trade-type>
+    <input-date>2010-02-04T16:16+01:00</input-date>
+    <modification-date>2010-09-08T13:06+02:00</modification-date>
+    <latest-status name="Verified" xlink:href="http://63.240.29.136/xenon/nuon/statuses/3" xlink:type="simple"/>
+    <originating-trade-id/>
+  </trade>
+</deal></deal-id>
+    <deal-id xlink:href="http://63.240.29.136/xenon/nuon/deals/1055645/1/confirm" xlink:type="simple"><deal id="1055645">
+  <header type="physical-otc-trade-header">
+    <otc-broker name="[NONE]"/>
+    <principal-confirm-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/102" xlink:type="simple"/>
+    <cpty-confirm-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/156" xlink:type="simple"/>
+    <counterparty id="131" name="Transfer" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/131" xlink:type="simple"/>
+    <marketer name="[NONE]"/>
+    <cpty-contact/>
+    <cpty-settlement-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/156" xlink:type="simple"/>
+    <principal-settlement-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/102" xlink:type="simple"/>
+    <mta name="[NONE]"/>
+    <counterparty-trader/>
+    <message-type/>
+    <product-type/>
+    <settle>true</settle>
+    <confirm>true</confirm>
+    <internal>true</internal>
+    <invoice-notes/>
+    <confirm-notes/>
+    <version-number>1</version-number>
+    <internal-reference/>
+    <deal-modification-date>2010-07-26T15:10+02:00</deal-modification-date>
+    <comment/>
+    <principal id="103" name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <trade-time>2010-07-26T15:00+02:00</trade-time>
+    <portfolio name="Dummy deals Default" xlink:href="http://63.240.29.136/xenon/nuon/portfolios/118" xlink:type="simple"/>
+    <trader id="893" name="Justo Conde" xlink:href="http://63.240.29.136/xenon/nuon/contacts/893" xlink:type="simple"/>
+    <owner id="893" name="Justo Conde" xlink:href="http://63.240.29.136/xenon/nuon/contacts/893" xlink:type="simple"/>
+    <strategy name="[NONE]"/>
+    <trade-task/>
+    <trading-purpose name="[NONE]"/>
+    <delivery-start-date>2010-12-01T00:00+01:00</delivery-start-date>
+    <delivery-end-date>2011-01-01T00:00+01:00</delivery-end-date>
+    <unadjusted-delivery-start-date>2010-12-01T00:00+01:00</unadjusted-delivery-start-date>
+    <unadjusted-delivery-end-date>2010-12-31T00:00+01:00</unadjusted-delivery-end-date>
+    <total-broker-fee>
+      <currency>USD</currency>
+      <number>0.0</number>
+    </total-broker-fee>
+    <flex-deal>false</flex-deal>
+    <broker-confirm-status>Unconfirmed</broker-confirm-status>
+    <incoming-confirm-status>Unconfirmed</incoming-confirm-status>
+    <outgoing-confirm-status>Unconfirmed</outgoing-confirm-status>
+  </header>
+  <trade id="1055645">
+    <buyer-counterparty name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <seller-counterparty name="Transfer" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/131" xlink:type="simple"/>
+    <fixed-price-payer-counterparty name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <floating-price-payer-counterparty name="Transfer" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/131" xlink:type="simple"/>
+    <underlying-category name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/underlying-categories/109" xlink:type="simple"/>
+    <total-price>
+      <currency>USD</currency>
+      <number>0.0</number>
+    </total-price>
+    <external-last-modified/>
+    <trade-type id="16" physical="true" type="option-on-fixed-price-physical-flow">
+      <option-terms>
+        <buy-sell>Buy</buy-sell>
+        <put-call>Call</put-call>
+        <american-european>European</american-european>
+        <expiration-date-range-structure type="single-date-range-structure">
+          <expiration-date type="date">2010-11-01T00:00+01:00</expiration-date>
+        </expiration-date-range-structure>
+        <underlying-terms type="physical-flow-sale-terms">
+          <scheduled>false</scheduled>
+          <underlying-def name="European Coal - USD" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/281" xlink:type="simple"/>
+          <volume-structure type="per-block">
+            <unit type="physical-unit">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+            </unit>
+            <unit-volume>0.04347826</unit-volume>
+            <total-volume>0.99999998</total-volume>
+          </volume-structure>
+          <number-of-settlements>1</number-of-settlements>
+          <unit-value-structure type="same-price-for-every-cashflow">
+            <price>0.0</price>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+          </unit-value-structure>
+          <delivery-structure type="load-shape">
+            <block-size name="1 Month" xlink:href="http://63.240.29.136/xenon/nuon/block-sizes/3" xlink:type="simple"/>
+            <load-shape name="European Coal" xlink:href="http://63.240.29.136/xenon/nuon/load-shapes/103" xlink:type="simple"/>
+            <holiday-schedules-overridden>false</holiday-schedules-overridden>
+            <holiday-schedules>
+              <holiday-schedule name="Platts Product - Europe" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/109" xlink:type="simple"/>
+              <holiday-schedule name="Netherlands" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/115" xlink:type="simple"/>
+            </holiday-schedules>
+            <start-date>2010-12-01T00:00+01:00</start-date>
+            <end-date>2011-01-01T00:00+01:00</end-date>
+            <unadjusted-start-date>2010-12-01T00:00+01:00</unadjusted-start-date>
+            <unadjusted-end-date>2010-12-31T00:00+01:00</unadjusted-end-date>
+          </delivery-structure>
+          <cashflow-terms type="fixed-cashflow-terms">
+            <underlying-def/>
+            <volume-structure type="per-block">
+              <unit type="physical-unit">
+                <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+                <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              </unit>
+              <unit-volume>0.04347826</unit-volume>
+              <total-volume>0.0</total-volume>
+            </volume-structure>
+            <buy-sell>sell</buy-sell>
+            <unit-value-structure type="same-price-for-every-cashflow">
+              <price>0.0</price>
+              <unit type="price">
+                <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+                <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+                <currency>USD</currency>
+              </unit>
+            </unit-value-structure>
+            <payment-structure type="relative-to-block">
+              <relative-offset-data>
+                <time-zone-id>GMT</time-zone-id>
+                <time-of-day>
+                  <hours>0</hours>
+                  <minutes>0</minutes>
+                  <seconds>0</seconds>
+                  <milliseconds>0</milliseconds>
+                </time-of-day>
+                <days>0</days>
+                <months>0</months>
+                <business-days>true</business-days>
+                <roll-type>Next</roll-type>
+              </relative-offset-data>
+              <holiday-schedules>
+                <holiday-schedule name="UK Banking" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/103" xlink:type="simple"/>
+              </holiday-schedules>
+            </payment-structure>
+          </cashflow-terms>
+          <buy-sell>Buy</buy-sell>
+          <firmness name="Firm" xlink:href="http://63.240.29.136/xenon/nuon/firmnesses/100" xlink:type="simple"/>
+          <delivery-location id="115" name="Buggenum" xlink:href="http://63.240.29.136/xenon/nuon/delivery-locations/115" xlink:type="simple"/>
+          <balancing-agent name="[NONE]"/>
+          <counterparty-balancing-agent name="Transfer" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/131" xlink:type="simple"/>
+          <counterparty-network-code>Transfer--GTS</counterparty-network-code>
+        </underlying-terms>
+        <strike-terms type="fixed-cashflow-terms">
+          <underlying-def name="European Coal - USD" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/281" xlink:type="simple"/>
+          <volume-structure type="dependent">
+            <unit type="physical-unit">
+              <commodity-definition name="Natural Gas -- TranscoUK Grade" xlink:href="http://63.240.29.136/xenon/nuon/commodities/100" xlink:type="simple"/>
+              <metric abbreviated-name="Therms" name="Therms" xlink:href="http://63.240.29.136/xenon/nuon/metrics/80" xlink:type="simple"/>
+            </unit>
+            <total-volume>0.0</total-volume>
+          </volume-structure>
+          <buy-sell>sell</buy-sell>
+          <unit-value-structure type="same-price-for-every-cashflow">
+            <price>10.0</price>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+          </unit-value-structure>
+          <payment-structure type="relative-to-block">
+            <relative-offset-data>
+              <time-zone-id>GMT</time-zone-id>
+              <time-of-day>
+                <hours>0</hours>
+                <minutes>0</minutes>
+                <seconds>0</seconds>
+                <milliseconds>0</milliseconds>
+              </time-of-day>
+              <days>0</days>
+              <months>0</months>
+              <business-days>true</business-days>
+              <roll-type>Next</roll-type>
+            </relative-offset-data>
+            <holiday-schedules>
+              <holiday-schedule name="UK Banking" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/103" xlink:type="simple"/>
+            </holiday-schedules>
+          </payment-structure>
+        </strike-terms>
+        <premium-terms>
+          <underlying-def name="European Coal - USD" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/281" xlink:type="simple"/>
+          <amount>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+            <number>0.0</number>
+          </amount>
+          <per-unit>true</per-unit>
+          <total-premium>
+            <currency>USD</currency>
+            <number>0.0</number>
+          </total-premium>
+          <payment-structure type="relative-to-trade-date">
+            <relative-offset-data>
+              <time-zone-id>GMT</time-zone-id>
+              <time-of-day>
+                <hours>0</hours>
+                <minutes>0</minutes>
+                <seconds>0</seconds>
+                <milliseconds>0</milliseconds>
+              </time-of-day>
+              <days>3</days>
+              <months>0</months>
+              <business-days>true</business-days>
+              <roll-type>Next</roll-type>
+            </relative-offset-data>
+            <holiday-schedules>
+              <holiday-schedule name="UK Banking" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/103" xlink:type="simple"/>
+            </holiday-schedules>
+          </payment-structure>
+          <pay-date>2010-07-29T02:00+02:00</pay-date>
+        </premium-terms>
+        <granularity>Single Expiry</granularity>
+        <exercise-type>Automatic</exercise-type>
+      </option-terms>
+      <otc-broker-fee type="per-unit">
+        <total-amount>
+          <currency>USD</currency>
+          <number>0.0</number>
+        </total-amount>
+        <broker-amount>
+          <unit type="price">
+            <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+            <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+            <currency>USD</currency>
+          </unit>
+          <number>0.0</number>
+        </broker-amount>
+        <use-rate-category>false</use-rate-category>
+      </otc-broker-fee>
+    </trade-type>
+    <input-date>2010-07-26T15:10+02:00</input-date>
+    <modification-date>2010-07-26T15:10+02:00</modification-date>
+    <latest-status name="Unverified" xlink:href="http://63.240.29.136/xenon/nuon/statuses/2" xlink:type="simple"/>
+    <originating-trade-id/>
+  </trade>
+</deal></deal-id>
+    <deal-id xlink:href="http://63.240.29.136/xenon/nuon/deals/831846/4/confirm" xlink:type="simple"><deal id="831846">
+  <header type="physical-otc-trade-header">
+    <otc-broker id="172" name="Spectron" xlink:href="http://63.240.29.136/xenon/nuon/otc-brokers/172" xlink:type="simple"/>
+    <principal-confirm-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/102" xlink:type="simple"/>
+    <cpty-confirm-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/165" xlink:type="simple"/>
+    <counterparty id="139" name="Deutsche Bank AG  London Branch" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/139" xlink:type="simple"/>
+    <marketer name="[NONE]"/>
+    <cpty-contact/>
+    <cpty-settlement-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/165" xlink:type="simple"/>
+    <principal-settlement-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/102" xlink:type="simple"/>
+    <mta name="[NONE]"/>
+    <counterparty-trader/>
+    <message-type/>
+    <product-type/>
+    <settle>true</settle>
+    <confirm>true</confirm>
+    <internal>false</internal>
+    <invoice-notes/>
+    <confirm-notes/>
+    <version-number>4</version-number>
+    <internal-reference>Option DB Call Spread API2 Cal 11</internal-reference>
+    <deal-modification-date>2010-09-08T13:06+02:00</deal-modification-date>
+    <comment/>
+    <principal id="103" name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <trade-time>2010-02-04T16:04+01:00</trade-time>
+    <portfolio name="Cross Commodity Options" xlink:href="http://63.240.29.136/xenon/nuon/portfolios/1038" xlink:type="simple"/>
+    <trader id="793" name="Pierre Allard" xlink:href="http://63.240.29.136/xenon/nuon/contacts/793" xlink:type="simple"/>
+    <owner id="793" name="Pierre Allard" xlink:href="http://63.240.29.136/xenon/nuon/contacts/793" xlink:type="simple"/>
+    <strategy name="[NONE]"/>
+    <trade-task/>
+    <trading-purpose name="[NONE]"/>
+    <delivery-start-date>2011-01-03T00:00+01:00</delivery-start-date>
+    <delivery-end-date>2011-12-31T00:00+01:00</delivery-end-date>
+    <unadjusted-delivery-start-date>2011-01-01T00:00+01:00</unadjusted-delivery-start-date>
+    <unadjusted-delivery-end-date>2011-12-31T00:00+01:00</unadjusted-delivery-end-date>
+    <total-broker-fee>
+      <currency>USD</currency>
+      <number>0.0</number>
+    </total-broker-fee>
+    <flex-deal>false</flex-deal>
+    <broker-confirm-status>Unconfirmed</broker-confirm-status>
+    <incoming-confirm-status>Unconfirmed</incoming-confirm-status>
+    <outgoing-confirm-status>Unconfirmed</outgoing-confirm-status>
+  </header>
+  <trade id="831846">
+    <buyer-counterparty name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <seller-counterparty name="Deutsche Bank AG  London Branch" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/139" xlink:type="simple"/>
+    <fixed-price-payer-counterparty name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <floating-price-payer-counterparty name="Deutsche Bank AG  London Branch" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/139" xlink:type="simple"/>
+    <underlying-category name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/underlying-categories/109" xlink:type="simple"/>
+    <total-price>
+      <currency>USD</currency>
+      <number>556199.9999994438</number>
+    </total-price>
+    <external-last-modified/>
+    <trade-type id="16" physical="true" type="option-on-fixed-price-physical-flow">
+      <option-terms>
+        <buy-sell>Buy</buy-sell>
+        <put-call>Call</put-call>
+        <american-european>European</american-european>
+        <expiration-date-range-structure type="single-date-range-structure">
+          <expiration-date type="date">2010-12-02T00:00+01:00</expiration-date>
+        </expiration-date-range-structure>
+        <underlying-terms type="physical-flow-sale-terms">
+          <scheduled>false</scheduled>
+          <underlying-def name="European Coal - USD" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/281" xlink:type="simple"/>
+          <volume-structure type="per-block">
+            <unit type="physical-unit">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+            </unit>
+            <unit-volume>230.769230769</unit-volume>
+            <total-volume>59999.99999994</total-volume>
+          </volume-structure>
+          <number-of-settlements>12</number-of-settlements>
+          <unit-value-structure type="same-price-for-every-cashflow">
+            <price>0.0</price>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+          </unit-value-structure>
+          <delivery-structure type="load-shape">
+            <block-size name="1 Month" xlink:href="http://63.240.29.136/xenon/nuon/block-sizes/3" xlink:type="simple"/>
+            <load-shape name="European Coal" xlink:href="http://63.240.29.136/xenon/nuon/load-shapes/103" xlink:type="simple"/>
+            <holiday-schedules-overridden>false</holiday-schedules-overridden>
+            <holiday-schedules>
+              <holiday-schedule name="Platts Product - Europe" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/109" xlink:type="simple"/>
+              <holiday-schedule name="Netherlands" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/115" xlink:type="simple"/>
+            </holiday-schedules>
+            <start-date>2011-01-03T00:00+01:00</start-date>
+            <end-date>2011-12-31T00:00+01:00</end-date>
+            <unadjusted-start-date>2011-01-01T00:00+01:00</unadjusted-start-date>
+            <unadjusted-end-date>2011-12-31T00:00+01:00</unadjusted-end-date>
+          </delivery-structure>
+          <cashflow-terms type="fixed-cashflow-terms">
+            <underlying-def/>
+            <volume-structure type="per-block">
+              <unit type="physical-unit">
+                <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+                <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              </unit>
+              <unit-volume>230.769230769</unit-volume>
+              <total-volume>0.0</total-volume>
+            </volume-structure>
+            <buy-sell>sell</buy-sell>
+            <unit-value-structure type="same-price-for-every-cashflow">
+              <price>0.0</price>
+              <unit type="price">
+                <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+                <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+                <currency>USD</currency>
+              </unit>
+            </unit-value-structure>
+            <payment-structure type="relative-to-block">
+              <relative-offset-data>
+                <time-zone-id>GMT</time-zone-id>
+                <time-of-day>
+                  <hours>0</hours>
+                  <minutes>0</minutes>
+                  <seconds>0</seconds>
+                  <milliseconds>0</milliseconds>
+                </time-of-day>
+                <days>5</days>
+                <months>0</months>
+                <business-days>true</business-days>
+                <roll-type>Next</roll-type>
+              </relative-offset-data>
+              <holiday-schedules>
+                <holiday-schedule name="UK Banking" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/103" xlink:type="simple"/>
+              </holiday-schedules>
+            </payment-structure>
+          </cashflow-terms>
+          <buy-sell>Buy</buy-sell>
+          <firmness name="Firm" xlink:href="http://63.240.29.136/xenon/nuon/firmnesses/100" xlink:type="simple"/>
+          <delivery-location id="115" name="Buggenum" xlink:href="http://63.240.29.136/xenon/nuon/delivery-locations/115" xlink:type="simple"/>
+          <balancing-agent name="[NONE]"/>
+          <counterparty-balancing-agent name="Deutsche Bank AG  London Branch" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/139" xlink:type="simple"/>
+          <counterparty-network-code/>
+        </underlying-terms>
+        <strike-terms type="fixed-cashflow-terms">
+          <underlying-def name="European Coal - USD" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/281" xlink:type="simple"/>
+          <volume-structure type="dependent">
+            <unit type="physical-unit">
+              <commodity-definition name="Natural Gas -- TranscoUK Grade" xlink:href="http://63.240.29.136/xenon/nuon/commodities/100" xlink:type="simple"/>
+              <metric abbreviated-name="Therms" name="Therms" xlink:href="http://63.240.29.136/xenon/nuon/metrics/80" xlink:type="simple"/>
+            </unit>
+            <total-volume>0.0</total-volume>
+          </volume-structure>
+          <buy-sell>sell</buy-sell>
+          <unit-value-structure type="same-price-for-every-cashflow">
+            <price>92.0</price>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+          </unit-value-structure>
+          <payment-structure type="relative-to-block">
+            <relative-offset-data>
+              <time-zone-id>GMT</time-zone-id>
+              <time-of-day>
+                <hours>0</hours>
+                <minutes>0</minutes>
+                <seconds>0</seconds>
+                <milliseconds>0</milliseconds>
+              </time-of-day>
+              <days>5</days>
+              <months>0</months>
+              <business-days>true</business-days>
+              <roll-type>Next</roll-type>
+            </relative-offset-data>
+            <holiday-schedules>
+              <holiday-schedule name="UK Banking" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/103" xlink:type="simple"/>
+            </holiday-schedules>
+          </payment-structure>
+        </strike-terms>
+        <premium-terms>
+          <underlying-def name="European Coal - USD" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/281" xlink:type="simple"/>
+          <amount>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+            <number>9.27</number>
+          </amount>
+          <per-unit>true</per-unit>
+          <total-premium>
+            <currency>USD</currency>
+            <number>556199.9999994438</number>
+          </total-premium>
+          <payment-structure type="relative-to-trade-date">
+            <relative-offset-data>
+              <time-zone-id>GMT</time-zone-id>
+              <time-of-day>
+                <hours>0</hours>
+                <minutes>0</minutes>
+                <seconds>0</seconds>
+                <milliseconds>0</milliseconds>
+              </time-of-day>
+              <days>3</days>
+              <months>0</months>
+              <business-days>true</business-days>
+              <roll-type>Next</roll-type>
+            </relative-offset-data>
+            <holiday-schedules>
+              <holiday-schedule name="UK Banking" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/103" xlink:type="simple"/>
+            </holiday-schedules>
+          </payment-structure>
+          <pay-date>2010-02-09T01:00+01:00</pay-date>
+        </premium-terms>
+        <granularity>Single Expiry</granularity>
+        <exercise-type>Automatic</exercise-type>
+      </option-terms>
+      <otc-broker-fee type="per-unit">
+        <total-amount>
+          <currency>USD</currency>
+          <number>0.0</number>
+        </total-amount>
+        <broker-amount>
+          <unit type="price">
+            <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+            <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+            <currency>USD</currency>
+          </unit>
+          <number>0.0</number>
+        </broker-amount>
+        <use-rate-category>false</use-rate-category>
+      </otc-broker-fee>
+    </trade-type>
+    <input-date>2010-02-04T16:11+01:00</input-date>
+    <modification-date>2010-09-08T13:06+02:00</modification-date>
+    <latest-status name="Verified" xlink:href="http://63.240.29.136/xenon/nuon/statuses/3" xlink:type="simple"/>
+    <originating-trade-id/>
+  </trade>
+</deal></deal-id>
+    <deal-id xlink:href="http://63.240.29.136/xenon/nuon/deals/1055686/1/confirm" xlink:type="simple"><deal id="1055686">
+  <header type="physical-otc-trade-header">
+    <otc-broker name="[NONE]"/>
+    <principal-confirm-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/102" xlink:type="simple"/>
+    <cpty-confirm-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/156" xlink:type="simple"/>
+    <counterparty id="131" name="Transfer" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/131" xlink:type="simple"/>
+    <marketer name="[NONE]"/>
+    <cpty-contact/>
+    <cpty-settlement-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/156" xlink:type="simple"/>
+    <principal-settlement-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/102" xlink:type="simple"/>
+    <mta name="[NONE]"/>
+    <counterparty-trader/>
+    <message-type/>
+    <product-type/>
+    <settle>true</settle>
+    <confirm>true</confirm>
+    <internal>true</internal>
+    <invoice-notes/>
+    <confirm-notes/>
+    <version-number>1</version-number>
+    <internal-reference/>
+    <deal-modification-date>2010-07-26T15:32+02:00</deal-modification-date>
+    <comment/>
+    <principal id="103" name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <trade-time>2010-07-26T15:25+02:00</trade-time>
+    <portfolio name="Dummy deals Default" xlink:href="http://63.240.29.136/xenon/nuon/portfolios/118" xlink:type="simple"/>
+    <trader id="893" name="Justo Conde" xlink:href="http://63.240.29.136/xenon/nuon/contacts/893" xlink:type="simple"/>
+    <owner id="893" name="Justo Conde" xlink:href="http://63.240.29.136/xenon/nuon/contacts/893" xlink:type="simple"/>
+    <strategy name="[NONE]"/>
+    <trade-task/>
+    <trading-purpose name="[NONE]"/>
+    <delivery-start-date>2011-01-03T00:00+01:00</delivery-start-date>
+    <delivery-end-date>2011-02-01T00:00+01:00</delivery-end-date>
+    <unadjusted-delivery-start-date>2011-01-01T00:00+01:00</unadjusted-delivery-start-date>
+    <unadjusted-delivery-end-date>2011-01-31T00:00+01:00</unadjusted-delivery-end-date>
+    <total-broker-fee>
+      <currency>USD</currency>
+      <number>0.0</number>
+    </total-broker-fee>
+    <flex-deal>false</flex-deal>
+    <broker-confirm-status>Unconfirmed</broker-confirm-status>
+    <incoming-confirm-status>Unconfirmed</incoming-confirm-status>
+    <outgoing-confirm-status>Unconfirmed</outgoing-confirm-status>
+  </header>
+  <trade id="1055686">
+    <buyer-counterparty name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <seller-counterparty name="Transfer" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/131" xlink:type="simple"/>
+    <fixed-price-payer-counterparty name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <floating-price-payer-counterparty name="Transfer" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/131" xlink:type="simple"/>
+    <underlying-category name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/underlying-categories/109" xlink:type="simple"/>
+    <total-price>
+      <currency>USD</currency>
+      <number>0.0</number>
+    </total-price>
+    <external-last-modified/>
+    <trade-type id="16" physical="true" type="option-on-fixed-price-physical-flow">
+      <option-terms>
+        <buy-sell>Buy</buy-sell>
+        <put-call>Call</put-call>
+        <american-european>European</american-european>
+        <expiration-date-range-structure type="single-date-range-structure">
+          <expiration-date type="date">2010-12-01T00:00+01:00</expiration-date>
+        </expiration-date-range-structure>
+        <underlying-terms type="physical-flow-sale-terms">
+          <scheduled>false</scheduled>
+          <underlying-def name="European Coal - USD" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/281" xlink:type="simple"/>
+          <volume-structure type="per-block">
+            <unit type="physical-unit">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+            </unit>
+            <unit-volume>0.047619</unit-volume>
+            <total-volume>0.999999</total-volume>
+          </volume-structure>
+          <number-of-settlements>1</number-of-settlements>
+          <unit-value-structure type="same-price-for-every-cashflow">
+            <price>0.0</price>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+          </unit-value-structure>
+          <delivery-structure type="load-shape">
+            <block-size name="1 Month" xlink:href="http://63.240.29.136/xenon/nuon/block-sizes/3" xlink:type="simple"/>
+            <load-shape name="European Coal" xlink:href="http://63.240.29.136/xenon/nuon/load-shapes/103" xlink:type="simple"/>
+            <holiday-schedules-overridden>false</holiday-schedules-overridden>
+            <holiday-schedules>
+              <holiday-schedule name="Platts Product - Europe" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/109" xlink:type="simple"/>
+              <holiday-schedule name="Netherlands" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/115" xlink:type="simple"/>
+            </holiday-schedules>
+            <start-date>2011-01-03T00:00+01:00</start-date>
+            <end-date>2011-02-01T00:00+01:00</end-date>
+            <unadjusted-start-date>2011-01-01T00:00+01:00</unadjusted-start-date>
+            <unadjusted-end-date>2011-01-31T00:00+01:00</unadjusted-end-date>
+          </delivery-structure>
+          <cashflow-terms type="fixed-cashflow-terms">
+            <underlying-def/>
+            <volume-structure type="per-block">
+              <unit type="physical-unit">
+                <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+                <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              </unit>
+              <unit-volume>0.047619</unit-volume>
+              <total-volume>0.0</total-volume>
+            </volume-structure>
+            <buy-sell>sell</buy-sell>
+            <unit-value-structure type="same-price-for-every-cashflow">
+              <price>0.0</price>
+              <unit type="price">
+                <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+                <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+                <currency>USD</currency>
+              </unit>
+            </unit-value-structure>
+            <payment-structure type="relative-to-block">
+              <relative-offset-data>
+                <time-zone-id>GMT</time-zone-id>
+                <time-of-day>
+                  <hours>0</hours>
+                  <minutes>0</minutes>
+                  <seconds>0</seconds>
+                  <milliseconds>0</milliseconds>
+                </time-of-day>
+                <days>0</days>
+                <months>0</months>
+                <business-days>true</business-days>
+                <roll-type>Next</roll-type>
+              </relative-offset-data>
+              <holiday-schedules>
+                <holiday-schedule name="UK Banking" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/103" xlink:type="simple"/>
+              </holiday-schedules>
+            </payment-structure>
+          </cashflow-terms>
+          <buy-sell>Buy</buy-sell>
+          <firmness name="Firm" xlink:href="http://63.240.29.136/xenon/nuon/firmnesses/100" xlink:type="simple"/>
+          <delivery-location id="115" name="Buggenum" xlink:href="http://63.240.29.136/xenon/nuon/delivery-locations/115" xlink:type="simple"/>
+          <balancing-agent name="[NONE]"/>
+          <counterparty-balancing-agent name="Transfer" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/131" xlink:type="simple"/>
+          <counterparty-network-code>Transfer--GTS</counterparty-network-code>
+        </underlying-terms>
+        <strike-terms type="fixed-cashflow-terms">
+          <underlying-def name="European Coal - USD" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/281" xlink:type="simple"/>
+          <volume-structure type="dependent">
+            <unit type="physical-unit">
+              <commodity-definition name="Natural Gas -- TranscoUK Grade" xlink:href="http://63.240.29.136/xenon/nuon/commodities/100" xlink:type="simple"/>
+              <metric abbreviated-name="Therms" name="Therms" xlink:href="http://63.240.29.136/xenon/nuon/metrics/80" xlink:type="simple"/>
+            </unit>
+            <total-volume>0.0</total-volume>
+          </volume-structure>
+          <buy-sell>sell</buy-sell>
+          <unit-value-structure type="same-price-for-every-cashflow">
+            <price>10.0</price>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+          </unit-value-structure>
+          <payment-structure type="relative-to-block">
+            <relative-offset-data>
+              <time-zone-id>GMT</time-zone-id>
+              <time-of-day>
+                <hours>0</hours>
+                <minutes>0</minutes>
+                <seconds>0</seconds>
+                <milliseconds>0</milliseconds>
+              </time-of-day>
+              <days>0</days>
+              <months>0</months>
+              <business-days>true</business-days>
+              <roll-type>Next</roll-type>
+            </relative-offset-data>
+            <holiday-schedules>
+              <holiday-schedule name="UK Banking" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/103" xlink:type="simple"/>
+            </holiday-schedules>
+          </payment-structure>
+        </strike-terms>
+        <premium-terms>
+          <underlying-def name="European Coal - USD" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/281" xlink:type="simple"/>
+          <amount>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+            <number>0.0</number>
+          </amount>
+          <per-unit>true</per-unit>
+          <total-premium>
+            <currency>USD</currency>
+            <number>0.0</number>
+          </total-premium>
+          <payment-structure type="relative-to-trade-date">
+            <relative-offset-data>
+              <time-zone-id>GMT</time-zone-id>
+              <time-of-day>
+                <hours>0</hours>
+                <minutes>0</minutes>
+                <seconds>0</seconds>
+                <milliseconds>0</milliseconds>
+              </time-of-day>
+              <days>3</days>
+              <months>0</months>
+              <business-days>true</business-days>
+              <roll-type>Next</roll-type>
+            </relative-offset-data>
+            <holiday-schedules>
+              <holiday-schedule name="UK Banking" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/103" xlink:type="simple"/>
+            </holiday-schedules>
+          </payment-structure>
+          <pay-date>2010-07-29T02:00+02:00</pay-date>
+        </premium-terms>
+        <granularity>Single Expiry</granularity>
+        <exercise-type>Automatic</exercise-type>
+      </option-terms>
+      <otc-broker-fee type="per-unit">
+        <total-amount>
+          <currency>USD</currency>
+          <number>0.0</number>
+        </total-amount>
+        <broker-amount>
+          <unit type="price">
+            <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+            <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+            <currency>USD</currency>
+          </unit>
+          <number>0.0</number>
+        </broker-amount>
+        <use-rate-category>false</use-rate-category>
+      </otc-broker-fee>
+    </trade-type>
+    <input-date>2010-07-26T15:32+02:00</input-date>
+    <modification-date>2010-07-26T15:32+02:00</modification-date>
+    <latest-status name="Unverified" xlink:href="http://63.240.29.136/xenon/nuon/statuses/2" xlink:type="simple"/>
+    <originating-trade-id/>
+  </trade>
+</deal></deal-id>
+    <deal-id xlink:href="http://63.240.29.136/xenon/nuon/deals/844326/1/confirm" xlink:type="simple"><deal id="844326">
+  <header type="otc-trade-header">
+    <otc-broker id="172" name="Spectron" xlink:href="http://63.240.29.136/xenon/nuon/otc-brokers/172" xlink:type="simple"/>
+    <principal-confirm-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/102" xlink:type="simple"/>
+    <cpty-confirm-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/165" xlink:type="simple"/>
+    <counterparty id="139" name="Deutsche Bank AG  London Branch" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/139" xlink:type="simple"/>
+    <marketer name="[NONE]"/>
+    <cpty-contact/>
+    <cpty-settlement-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/165" xlink:type="simple"/>
+    <principal-settlement-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/102" xlink:type="simple"/>
+    <mta name="[NONE]"/>
+    <counterparty-trader/>
+    <message-type/>
+    <product-type/>
+    <settle>true</settle>
+    <confirm>true</confirm>
+    <internal>false</internal>
+    <invoice-notes/>
+    <confirm-notes/>
+    <version-number>1</version-number>
+    <internal-reference/>
+    <deal-modification-date>2010-02-12T17:39+01:00</deal-modification-date>
+    <comment/>
+    <principal id="103" name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <trade-time>2010-02-04T17:08+01:00</trade-time>
+    <portfolio name="Dummy deals Default" xlink:href="http://63.240.29.136/xenon/nuon/portfolios/118" xlink:type="simple"/>
+    <trader id="793" name="Pierre Allard" xlink:href="http://63.240.29.136/xenon/nuon/contacts/793" xlink:type="simple"/>
+    <owner id="793" name="Pierre Allard" xlink:href="http://63.240.29.136/xenon/nuon/contacts/793" xlink:type="simple"/>
+    <strategy name="[NONE]"/>
+    <trade-task/>
+    <trading-purpose name="[NONE]"/>
+    <delivery-start-date>2011-01-01T01:00+01:00</delivery-start-date>
+    <delivery-end-date>2012-01-01T01:00+01:00</delivery-end-date>
+    <unadjusted-delivery-start-date>2011-01-01T01:00+01:00</unadjusted-delivery-start-date>
+    <unadjusted-delivery-end-date>2011-12-31T01:00+01:00</unadjusted-delivery-end-date>
+    <flex-deal>false</flex-deal>
+    <broker-confirm-status>Unconfirmed</broker-confirm-status>
+    <incoming-confirm-status>Unconfirmed</incoming-confirm-status>
+    <outgoing-confirm-status>Unconfirmed</outgoing-confirm-status>
+  </header>
+  <trade id="844326">
+    <buyer-counterparty name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <seller-counterparty name="Deutsche Bank AG  London Branch" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/139" xlink:type="simple"/>
+    <fixed-price-payer-counterparty name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <floating-price-payer-counterparty name="Deutsche Bank AG  London Branch" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/139" xlink:type="simple"/>
+    <underlying-category name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/underlying-categories/109" xlink:type="simple"/>
+    <total-price>
+      <currency>USD</currency>
+      <number>556196.7123944999</number>
+    </total-price>
+    <external-last-modified/>
+    <trade-type id="16" physical="true" type="option-on-fixed-price-physical-flow">
+      <option-terms>
+        <buy-sell>Buy</buy-sell>
+        <put-call>Call</put-call>
+        <american-european>European</american-european>
+        <expiration-date-range-structure type="single-date-range-structure">
+          <expiration-date type="date">2010-12-02T01:00+01:00</expiration-date>
+        </expiration-date-range-structure>
+        <underlying-terms type="physical-flow-sale-terms">
+          <scheduled>true</scheduled>
+          <underlying-def name="TFS API2 - Swaption" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/297" xlink:type="simple"/>
+          <volume-structure type="per-block">
+            <unit type="physical-unit">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+            </unit>
+            <unit-volume>164.38259</unit-volume>
+            <total-volume>59999.64535</total-volume>
+          </volume-structure>
+          <number-of-settlements>12</number-of-settlements>
+          <unit-value-structure type="same-price-for-every-cashflow">
+            <price>0.0</price>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+          </unit-value-structure>
+          <delivery-structure type="load-shape">
+            <block-size name="1 Month" xlink:href="http://63.240.29.136/xenon/nuon/block-sizes/3" xlink:type="simple"/>
+            <load-shape name="TFS API2 - Swaption - Baseload - TFS_API2 - TFS API Financial" xlink:href="http://63.240.29.136/xenon/nuon/load-shapes/418" xlink:type="simple"/>
+            <holiday-schedules-overridden>false</holiday-schedules-overridden>
+            <holiday-schedules>
+              <holiday-schedule name="Monthly" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/120" xlink:type="simple"/>
+            </holiday-schedules>
+            <start-date>2011-01-01T01:00+01:00</start-date>
+            <end-date>2012-01-01T01:00+01:00</end-date>
+            <unadjusted-start-date>2011-01-01T01:00+01:00</unadjusted-start-date>
+            <unadjusted-end-date>2011-12-31T01:00+01:00</unadjusted-end-date>
+          </delivery-structure>
+          <cashflow-terms type="fixed-cashflow-terms">
+            <underlying-def/>
+            <volume-structure type="per-block">
+              <unit type="physical-unit">
+                <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+                <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              </unit>
+              <unit-volume>164.38259</unit-volume>
+              <total-volume>0.0</total-volume>
+            </volume-structure>
+            <buy-sell>sell</buy-sell>
+            <unit-value-structure type="same-price-for-every-cashflow">
+              <price>0.0</price>
+              <unit type="price">
+                <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+                <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+                <currency>USD</currency>
+              </unit>
+            </unit-value-structure>
+            <payment-structure type="relative-to-block">
+              <relative-offset-data>
+                <time-zone-id>GMT</time-zone-id>
+                <time-of-day>
+                  <hours>0</hours>
+                  <minutes>0</minutes>
+                  <seconds>0</seconds>
+                  <milliseconds>0</milliseconds>
+                </time-of-day>
+                <days>5</days>
+                <months>0</months>
+                <business-days>true</business-days>
+                <roll-type>Next</roll-type>
+              </relative-offset-data>
+              <holiday-schedules/>
+            </payment-structure>
+          </cashflow-terms>
+          <buy-sell>Buy</buy-sell>
+          <firmness name="Firm" xlink:href="http://63.240.29.136/xenon/nuon/firmnesses/100" xlink:type="simple"/>
+          <delivery-location id="125" name="Financial Coal" xlink:href="http://63.240.29.136/xenon/nuon/delivery-locations/125" xlink:type="simple"/>
+          <balancing-agent name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+          <counterparty-balancing-agent name="Deutsche Bank AG  London Branch" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/139" xlink:type="simple"/>
+          <counterparty-network-code>Deutsche Bank AG  London Branch--Europe - Coal</counterparty-network-code>
+        </underlying-terms>
+        <strike-terms type="fixed-cashflow-terms">
+          <underlying-def name="TFS API2 - Swaption" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/297" xlink:type="simple"/>
+          <volume-structure type="dependent">
+            <unit type="physical-unit">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+            </unit>
+            <total-volume>0.0</total-volume>
+          </volume-structure>
+          <buy-sell>sell</buy-sell>
+          <unit-value-structure type="same-price-for-every-cashflow">
+            <price>92.0</price>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+          </unit-value-structure>
+          <payment-structure type="relative-to-block">
+            <relative-offset-data>
+              <time-zone-id>GMT</time-zone-id>
+              <time-of-day>
+                <hours>0</hours>
+                <minutes>0</minutes>
+                <seconds>0</seconds>
+                <milliseconds>0</milliseconds>
+              </time-of-day>
+              <days>5</days>
+              <months>0</months>
+              <business-days>true</business-days>
+              <roll-type>Next</roll-type>
+            </relative-offset-data>
+            <holiday-schedules/>
+          </payment-structure>
+        </strike-terms>
+        <premium-terms>
+          <underlying-def name="TFS API2 - Swaption" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/297" xlink:type="simple"/>
+          <amount>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+            <number>9.27</number>
+          </amount>
+          <per-unit>true</per-unit>
+          <total-premium>
+            <currency>USD</currency>
+            <number>556196.7123944999</number>
+          </total-premium>
+          <payment-structure type="relative-to-trade-date">
+            <relative-offset-data>
+              <time-zone-id>GMT</time-zone-id>
+              <time-of-day>
+                <hours>0</hours>
+                <minutes>0</minutes>
+                <seconds>0</seconds>
+                <milliseconds>0</milliseconds>
+              </time-of-day>
+              <days>3</days>
+              <months>0</months>
+              <business-days>true</business-days>
+              <roll-type>Next</roll-type>
+            </relative-offset-data>
+            <holiday-schedules/>
+          </payment-structure>
+          <pay-date>2010-02-09T01:00+01:00</pay-date>
+        </premium-terms>
+        <granularity>Single Expiry</granularity>
+        <exercise-type>Automatic</exercise-type>
+      </option-terms>
+      <otc-broker-fee type="default-to-broker">
+        <use-rate-category>false</use-rate-category>
+      </otc-broker-fee>
+    </trade-type>
+    <input-date>2010-02-12T17:39+01:00</input-date>
+    <modification-date>2010-02-12T17:39+01:00</modification-date>
+    <latest-status name="Unverified" xlink:href="http://63.240.29.136/xenon/nuon/statuses/2" xlink:type="simple"/>
+    <originating-trade-id/>
+  </trade>
+</deal></deal-id>
+    <deal-id xlink:href="http://63.240.29.136/xenon/nuon/deals/1055525/1/confirm" xlink:type="simple"><deal id="1055525">
+  <header type="physical-otc-trade-header">
+    <otc-broker name="[NONE]"/>
+    <principal-confirm-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/102" xlink:type="simple"/>
+    <cpty-confirm-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/156" xlink:type="simple"/>
+    <counterparty id="131" name="Transfer" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/131" xlink:type="simple"/>
+    <marketer name="[NONE]"/>
+    <cpty-contact/>
+    <cpty-settlement-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/156" xlink:type="simple"/>
+    <principal-settlement-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/102" xlink:type="simple"/>
+    <mta name="[NONE]"/>
+    <counterparty-trader/>
+    <message-type/>
+    <product-type/>
+    <settle>true</settle>
+    <confirm>true</confirm>
+    <internal>true</internal>
+    <invoice-notes/>
+    <confirm-notes/>
+    <version-number>1</version-number>
+    <internal-reference/>
+    <deal-modification-date>2010-07-26T14:40+02:00</deal-modification-date>
+    <comment/>
+    <principal id="103" name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <trade-time>2010-07-26T14:21+02:00</trade-time>
+    <portfolio name="Dummy deals Default" xlink:href="http://63.240.29.136/xenon/nuon/portfolios/118" xlink:type="simple"/>
+    <trader id="893" name="Justo Conde" xlink:href="http://63.240.29.136/xenon/nuon/contacts/893" xlink:type="simple"/>
+    <owner id="893" name="Justo Conde" xlink:href="http://63.240.29.136/xenon/nuon/contacts/893" xlink:type="simple"/>
+    <strategy name="[NONE]"/>
+    <trade-task/>
+    <trading-purpose name="[NONE]"/>
+    <delivery-start-date>2010-12-01T00:00+01:00</delivery-start-date>
+    <delivery-end-date>2011-01-01T00:00+01:00</delivery-end-date>
+    <unadjusted-delivery-start-date>2010-12-01T00:00+01:00</unadjusted-delivery-start-date>
+    <unadjusted-delivery-end-date>2010-12-31T00:00+01:00</unadjusted-delivery-end-date>
+    <total-broker-fee>
+      <currency>USD</currency>
+      <number>0.0</number>
+    </total-broker-fee>
+    <flex-deal>false</flex-deal>
+    <broker-confirm-status>Unconfirmed</broker-confirm-status>
+    <incoming-confirm-status>Unconfirmed</incoming-confirm-status>
+    <outgoing-confirm-status>Unconfirmed</outgoing-confirm-status>
+  </header>
+  <trade id="1055525">
+    <buyer-counterparty name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <seller-counterparty name="Transfer" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/131" xlink:type="simple"/>
+    <fixed-price-payer-counterparty name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <floating-price-payer-counterparty name="Transfer" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/131" xlink:type="simple"/>
+    <underlying-category name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/underlying-categories/109" xlink:type="simple"/>
+    <total-price>
+      <currency>USD</currency>
+      <number>0.0</number>
+    </total-price>
+    <external-last-modified/>
+    <trade-type id="16" physical="true" type="option-on-fixed-price-physical-flow">
+      <option-terms>
+        <buy-sell>Buy</buy-sell>
+        <put-call>Call</put-call>
+        <american-european>European</american-european>
+        <expiration-date-range-structure type="single-date-range-structure">
+          <expiration-date type="date">2010-11-01T00:00+01:00</expiration-date>
+        </expiration-date-range-structure>
+        <underlying-terms type="physical-flow-sale-terms">
+          <scheduled>false</scheduled>
+          <underlying-def name="European Coal - USD" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/281" xlink:type="simple"/>
+          <volume-structure type="per-block">
+            <unit type="physical-unit">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+            </unit>
+            <unit-volume>0.04347826</unit-volume>
+            <total-volume>0.99999998</total-volume>
+          </volume-structure>
+          <number-of-settlements>1</number-of-settlements>
+          <unit-value-structure type="same-price-for-every-cashflow">
+            <price>0.0</price>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+          </unit-value-structure>
+          <delivery-structure type="load-shape">
+            <block-size name="1 Month" xlink:href="http://63.240.29.136/xenon/nuon/block-sizes/3" xlink:type="simple"/>
+            <load-shape name="European Coal" xlink:href="http://63.240.29.136/xenon/nuon/load-shapes/103" xlink:type="simple"/>
+            <holiday-schedules-overridden>false</holiday-schedules-overridden>
+            <holiday-schedules>
+              <holiday-schedule name="Platts Product - Europe" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/109" xlink:type="simple"/>
+              <holiday-schedule name="Netherlands" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/115" xlink:type="simple"/>
+            </holiday-schedules>
+            <start-date>2010-12-01T00:00+01:00</start-date>
+            <end-date>2011-01-01T00:00+01:00</end-date>
+            <unadjusted-start-date>2010-12-01T00:00+01:00</unadjusted-start-date>
+            <unadjusted-end-date>2010-12-31T00:00+01:00</unadjusted-end-date>
+          </delivery-structure>
+          <cashflow-terms type="fixed-cashflow-terms">
+            <underlying-def/>
+            <volume-structure type="per-block">
+              <unit type="physical-unit">
+                <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+                <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              </unit>
+              <unit-volume>0.04347826</unit-volume>
+              <total-volume>0.0</total-volume>
+            </volume-structure>
+            <buy-sell>sell</buy-sell>
+            <unit-value-structure type="same-price-for-every-cashflow">
+              <price>0.0</price>
+              <unit type="price">
+                <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+                <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+                <currency>USD</currency>
+              </unit>
+            </unit-value-structure>
+            <payment-structure type="relative-to-block">
+              <relative-offset-data>
+                <time-zone-id>GMT</time-zone-id>
+                <time-of-day>
+                  <hours>0</hours>
+                  <minutes>0</minutes>
+                  <seconds>0</seconds>
+                  <milliseconds>0</milliseconds>
+                </time-of-day>
+                <days>0</days>
+                <months>0</months>
+                <business-days>true</business-days>
+                <roll-type>Next</roll-type>
+              </relative-offset-data>
+              <holiday-schedules>
+                <holiday-schedule name="UK Banking" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/103" xlink:type="simple"/>
+              </holiday-schedules>
+            </payment-structure>
+          </cashflow-terms>
+          <buy-sell>Buy</buy-sell>
+          <firmness name="Firm" xlink:href="http://63.240.29.136/xenon/nuon/firmnesses/100" xlink:type="simple"/>
+          <delivery-location id="115" name="Buggenum" xlink:href="http://63.240.29.136/xenon/nuon/delivery-locations/115" xlink:type="simple"/>
+          <balancing-agent name="[NONE]"/>
+          <counterparty-balancing-agent name="Transfer" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/131" xlink:type="simple"/>
+          <counterparty-network-code>Transfer--GTS</counterparty-network-code>
+        </underlying-terms>
+        <strike-terms type="fixed-cashflow-terms">
+          <underlying-def name="European Coal - USD" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/281" xlink:type="simple"/>
+          <volume-structure type="dependent">
+            <unit type="physical-unit">
+              <commodity-definition name="Natural Gas -- TranscoUK Grade" xlink:href="http://63.240.29.136/xenon/nuon/commodities/100" xlink:type="simple"/>
+              <metric abbreviated-name="Therms" name="Therms" xlink:href="http://63.240.29.136/xenon/nuon/metrics/80" xlink:type="simple"/>
+            </unit>
+            <total-volume>0.0</total-volume>
+          </volume-structure>
+          <buy-sell>sell</buy-sell>
+          <unit-value-structure type="same-price-for-every-cashflow">
+            <price>93.5</price>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+          </unit-value-structure>
+          <payment-structure type="relative-to-block">
+            <relative-offset-data>
+              <time-zone-id>GMT</time-zone-id>
+              <time-of-day>
+                <hours>0</hours>
+                <minutes>0</minutes>
+                <seconds>0</seconds>
+                <milliseconds>0</milliseconds>
+              </time-of-day>
+              <days>0</days>
+              <months>0</months>
+              <business-days>true</business-days>
+              <roll-type>Next</roll-type>
+            </relative-offset-data>
+            <holiday-schedules>
+              <holiday-schedule name="UK Banking" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/103" xlink:type="simple"/>
+            </holiday-schedules>
+          </payment-structure>
+        </strike-terms>
+        <premium-terms>
+          <underlying-def name="European Coal - USD" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/281" xlink:type="simple"/>
+          <amount>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+            <number>0.0</number>
+          </amount>
+          <per-unit>true</per-unit>
+          <total-premium>
+            <currency>USD</currency>
+            <number>0.0</number>
+          </total-premium>
+          <payment-structure type="relative-to-trade-date">
+            <relative-offset-data>
+              <time-zone-id>GMT</time-zone-id>
+              <time-of-day>
+                <hours>0</hours>
+                <minutes>0</minutes>
+                <seconds>0</seconds>
+                <milliseconds>0</milliseconds>
+              </time-of-day>
+              <days>3</days>
+              <months>0</months>
+              <business-days>true</business-days>
+              <roll-type>Next</roll-type>
+            </relative-offset-data>
+            <holiday-schedules>
+              <holiday-schedule name="UK Banking" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/103" xlink:type="simple"/>
+            </holiday-schedules>
+          </payment-structure>
+          <pay-date>2010-07-29T02:00+02:00</pay-date>
+        </premium-terms>
+        <granularity>Single Expiry</granularity>
+        <exercise-type>Automatic</exercise-type>
+      </option-terms>
+      <otc-broker-fee type="per-unit">
+        <total-amount>
+          <currency>USD</currency>
+          <number>0.0</number>
+        </total-amount>
+        <broker-amount>
+          <unit type="price">
+            <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+            <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+            <currency>USD</currency>
+          </unit>
+          <number>0.0</number>
+        </broker-amount>
+        <use-rate-category>false</use-rate-category>
+      </otc-broker-fee>
+    </trade-type>
+    <input-date>2010-07-26T14:40+02:00</input-date>
+    <modification-date>2010-07-26T14:40+02:00</modification-date>
+    <latest-status name="Unverified" xlink:href="http://63.240.29.136/xenon/nuon/statuses/2" xlink:type="simple"/>
+    <originating-trade-id/>
+  </trade>
+</deal></deal-id>
+    <deal-id xlink:href="http://63.240.29.136/xenon/nuon/deals/1055587/1/confirm" xlink:type="simple"><deal id="1055587">
+  <header type="physical-otc-trade-header">
+    <otc-broker name="[NONE]"/>
+    <principal-confirm-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/102" xlink:type="simple"/>
+    <cpty-confirm-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/156" xlink:type="simple"/>
+    <counterparty id="131" name="Transfer" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/131" xlink:type="simple"/>
+    <marketer name="[NONE]"/>
+    <cpty-contact/>
+    <cpty-settlement-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/156" xlink:type="simple"/>
+    <principal-settlement-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/102" xlink:type="simple"/>
+    <mta name="[NONE]"/>
+    <counterparty-trader/>
+    <message-type/>
+    <product-type/>
+    <settle>true</settle>
+    <confirm>true</confirm>
+    <internal>true</internal>
+    <invoice-notes/>
+    <confirm-notes/>
+    <version-number>1</version-number>
+    <internal-reference/>
+    <deal-modification-date>2010-07-26T15:00+02:00</deal-modification-date>
+    <comment/>
+    <principal id="103" name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <trade-time>2010-07-26T14:40+02:00</trade-time>
+    <portfolio name="Dummy deals Default" xlink:href="http://63.240.29.136/xenon/nuon/portfolios/118" xlink:type="simple"/>
+    <trader id="893" name="Justo Conde" xlink:href="http://63.240.29.136/xenon/nuon/contacts/893" xlink:type="simple"/>
+    <owner id="893" name="Justo Conde" xlink:href="http://63.240.29.136/xenon/nuon/contacts/893" xlink:type="simple"/>
+    <strategy name="[NONE]"/>
+    <trade-task/>
+    <trading-purpose name="[NONE]"/>
+    <delivery-start-date>2010-12-01T00:00+01:00</delivery-start-date>
+    <delivery-end-date>2011-01-01T00:00+01:00</delivery-end-date>
+    <unadjusted-delivery-start-date>2010-12-01T00:00+01:00</unadjusted-delivery-start-date>
+    <unadjusted-delivery-end-date>2010-12-31T00:00+01:00</unadjusted-delivery-end-date>
+    <total-broker-fee>
+      <currency>USD</currency>
+      <number>0.0</number>
+    </total-broker-fee>
+    <flex-deal>false</flex-deal>
+    <broker-confirm-status>Unconfirmed</broker-confirm-status>
+    <incoming-confirm-status>Unconfirmed</incoming-confirm-status>
+    <outgoing-confirm-status>Unconfirmed</outgoing-confirm-status>
+  </header>
+  <trade id="1055587">
+    <buyer-counterparty name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <seller-counterparty name="Transfer" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/131" xlink:type="simple"/>
+    <fixed-price-payer-counterparty name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <floating-price-payer-counterparty name="Transfer" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/131" xlink:type="simple"/>
+    <underlying-category name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/underlying-categories/109" xlink:type="simple"/>
+    <total-price>
+      <currency>USD</currency>
+      <number>0.0</number>
+    </total-price>
+    <external-last-modified/>
+    <trade-type id="16" physical="true" type="option-on-fixed-price-physical-flow">
+      <option-terms>
+        <buy-sell>Buy</buy-sell>
+        <put-call>Call</put-call>
+        <american-european>European</american-european>
+        <expiration-date-range-structure type="single-date-range-structure">
+          <expiration-date type="date">2010-11-01T00:00+01:00</expiration-date>
+        </expiration-date-range-structure>
+        <underlying-terms type="physical-flow-sale-terms">
+          <scheduled>false</scheduled>
+          <underlying-def name="European Coal - USD" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/281" xlink:type="simple"/>
+          <volume-structure type="per-block">
+            <unit type="physical-unit">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+            </unit>
+            <unit-volume>0.04347826</unit-volume>
+            <total-volume>0.99999998</total-volume>
+          </volume-structure>
+          <number-of-settlements>1</number-of-settlements>
+          <unit-value-structure type="same-price-for-every-cashflow">
+            <price>0.0</price>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+          </unit-value-structure>
+          <delivery-structure type="load-shape">
+            <block-size name="1 Month" xlink:href="http://63.240.29.136/xenon/nuon/block-sizes/3" xlink:type="simple"/>
+            <load-shape name="European Coal" xlink:href="http://63.240.29.136/xenon/nuon/load-shapes/103" xlink:type="simple"/>
+            <holiday-schedules-overridden>false</holiday-schedules-overridden>
+            <holiday-schedules>
+              <holiday-schedule name="Platts Product - Europe" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/109" xlink:type="simple"/>
+              <holiday-schedule name="Netherlands" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/115" xlink:type="simple"/>
+            </holiday-schedules>
+            <start-date>2010-12-01T00:00+01:00</start-date>
+            <end-date>2011-01-01T00:00+01:00</end-date>
+            <unadjusted-start-date>2010-12-01T00:00+01:00</unadjusted-start-date>
+            <unadjusted-end-date>2010-12-31T00:00+01:00</unadjusted-end-date>
+          </delivery-structure>
+          <cashflow-terms type="fixed-cashflow-terms">
+            <underlying-def/>
+            <volume-structure type="per-block">
+              <unit type="physical-unit">
+                <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+                <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              </unit>
+              <unit-volume>0.04347826</unit-volume>
+              <total-volume>0.0</total-volume>
+            </volume-structure>
+            <buy-sell>sell</buy-sell>
+            <unit-value-structure type="same-price-for-every-cashflow">
+              <price>0.0</price>
+              <unit type="price">
+                <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+                <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+                <currency>USD</currency>
+              </unit>
+            </unit-value-structure>
+            <payment-structure type="relative-to-block">
+              <relative-offset-data>
+                <time-zone-id>GMT</time-zone-id>
+                <time-of-day>
+                  <hours>0</hours>
+                  <minutes>0</minutes>
+                  <seconds>0</seconds>
+                  <milliseconds>0</milliseconds>
+                </time-of-day>
+                <days>0</days>
+                <months>0</months>
+                <business-days>true</business-days>
+                <roll-type>Next</roll-type>
+              </relative-offset-data>
+              <holiday-schedules>
+                <holiday-schedule name="UK Banking" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/103" xlink:type="simple"/>
+              </holiday-schedules>
+            </payment-structure>
+          </cashflow-terms>
+          <buy-sell>Buy</buy-sell>
+          <firmness name="Firm" xlink:href="http://63.240.29.136/xenon/nuon/firmnesses/100" xlink:type="simple"/>
+          <delivery-location id="115" name="Buggenum" xlink:href="http://63.240.29.136/xenon/nuon/delivery-locations/115" xlink:type="simple"/>
+          <balancing-agent name="[NONE]"/>
+          <counterparty-balancing-agent name="Transfer" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/131" xlink:type="simple"/>
+          <counterparty-network-code>Transfer--GTS</counterparty-network-code>
+        </underlying-terms>
+        <strike-terms type="fixed-cashflow-terms">
+          <underlying-def name="European Coal - USD" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/281" xlink:type="simple"/>
+          <volume-structure type="dependent">
+            <unit type="physical-unit">
+              <commodity-definition name="Natural Gas -- TranscoUK Grade" xlink:href="http://63.240.29.136/xenon/nuon/commodities/100" xlink:type="simple"/>
+              <metric abbreviated-name="Therms" name="Therms" xlink:href="http://63.240.29.136/xenon/nuon/metrics/80" xlink:type="simple"/>
+            </unit>
+            <total-volume>0.0</total-volume>
+          </volume-structure>
+          <buy-sell>sell</buy-sell>
+          <unit-value-structure type="same-price-for-every-cashflow">
+            <price>150.0</price>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+          </unit-value-structure>
+          <payment-structure type="relative-to-block">
+            <relative-offset-data>
+              <time-zone-id>GMT</time-zone-id>
+              <time-of-day>
+                <hours>0</hours>
+                <minutes>0</minutes>
+                <seconds>0</seconds>
+                <milliseconds>0</milliseconds>
+              </time-of-day>
+              <days>0</days>
+              <months>0</months>
+              <business-days>true</business-days>
+              <roll-type>Next</roll-type>
+            </relative-offset-data>
+            <holiday-schedules>
+              <holiday-schedule name="UK Banking" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/103" xlink:type="simple"/>
+            </holiday-schedules>
+          </payment-structure>
+        </strike-terms>
+        <premium-terms>
+          <underlying-def name="European Coal - USD" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/281" xlink:type="simple"/>
+          <amount>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+            <number>0.0</number>
+          </amount>
+          <per-unit>true</per-unit>
+          <total-premium>
+            <currency>USD</currency>
+            <number>0.0</number>
+          </total-premium>
+          <payment-structure type="relative-to-trade-date">
+            <relative-offset-data>
+              <time-zone-id>GMT</time-zone-id>
+              <time-of-day>
+                <hours>0</hours>
+                <minutes>0</minutes>
+                <seconds>0</seconds>
+                <milliseconds>0</milliseconds>
+              </time-of-day>
+              <days>3</days>
+              <months>0</months>
+              <business-days>true</business-days>
+              <roll-type>Next</roll-type>
+            </relative-offset-data>
+            <holiday-schedules>
+              <holiday-schedule name="UK Banking" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/103" xlink:type="simple"/>
+            </holiday-schedules>
+          </payment-structure>
+          <pay-date>2010-07-29T02:00+02:00</pay-date>
+        </premium-terms>
+        <granularity>Single Expiry</granularity>
+        <exercise-type>Automatic</exercise-type>
+      </option-terms>
+      <otc-broker-fee type="per-unit">
+        <total-amount>
+          <currency>USD</currency>
+          <number>0.0</number>
+        </total-amount>
+        <broker-amount>
+          <unit type="price">
+            <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+            <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+            <currency>USD</currency>
+          </unit>
+          <number>0.0</number>
+        </broker-amount>
+        <use-rate-category>false</use-rate-category>
+      </otc-broker-fee>
+    </trade-type>
+    <input-date>2010-07-26T15:00+02:00</input-date>
+    <modification-date>2010-07-26T15:00+02:00</modification-date>
+    <latest-status name="Unverified" xlink:href="http://63.240.29.136/xenon/nuon/statuses/2" xlink:type="simple"/>
+    <originating-trade-id/>
+  </trade>
+</deal></deal-id>
+    <deal-id xlink:href="http://63.240.29.136/xenon/nuon/deals/871247/1/confirm" xlink:type="simple"><deal id="871247">
+  <header type="physical-otc-trade-header">
+    <otc-broker name="[NONE]"/>
+    <principal-confirm-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/102" xlink:type="simple"/>
+    <cpty-confirm-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/165" xlink:type="simple"/>
+    <counterparty id="139" name="Deutsche Bank AG  London Branch" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/139" xlink:type="simple"/>
+    <marketer name="[NONE]"/>
+    <cpty-contact/>
+    <cpty-settlement-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/165" xlink:type="simple"/>
+    <principal-settlement-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/102" xlink:type="simple"/>
+    <mta name="[NONE]"/>
+    <counterparty-trader/>
+    <message-type/>
+    <product-type/>
+    <settle>true</settle>
+    <confirm>true</confirm>
+    <internal>false</internal>
+    <invoice-notes/>
+    <confirm-notes/>
+    <version-number>1</version-number>
+    <internal-reference/>
+    <deal-modification-date>2010-03-02T17:02+01:00</deal-modification-date>
+    <comment/>
+    <principal id="103" name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <trade-time>2010-03-02T16:47+01:00</trade-time>
+    <portfolio name="Proprietary" xlink:href="http://63.240.29.136/xenon/nuon/portfolios/102" xlink:type="simple"/>
+    <trader id="481" name="Alexandre Claude" xlink:href="http://63.240.29.136/xenon/nuon/contacts/481" xlink:type="simple"/>
+    <owner id="481" name="Alexandre Claude" xlink:href="http://63.240.29.136/xenon/nuon/contacts/481" xlink:type="simple"/>
+    <strategy name="[NONE]"/>
+    <trade-task/>
+    <trading-purpose name="[NONE]"/>
+    <delivery-start-date>2011-01-03T00:00+01:00</delivery-start-date>
+    <delivery-end-date>2011-04-01T00:00+02:00</delivery-end-date>
+    <unadjusted-delivery-start-date>2011-01-01T00:00+01:00</unadjusted-delivery-start-date>
+    <unadjusted-delivery-end-date>2011-03-31T00:00+02:00</unadjusted-delivery-end-date>
+    <total-broker-fee>
+      <currency>USD</currency>
+      <number>0.0</number>
+    </total-broker-fee>
+    <flex-deal>false</flex-deal>
+    <broker-confirm-status>Unconfirmed</broker-confirm-status>
+    <incoming-confirm-status>Unconfirmed</incoming-confirm-status>
+    <outgoing-confirm-status>Unconfirmed</outgoing-confirm-status>
+  </header>
+  <trade id="871247">
+    <buyer-counterparty name="Deutsche Bank AG  London Branch" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/139" xlink:type="simple"/>
+    <seller-counterparty name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <fixed-price-payer-counterparty name="Deutsche Bank AG  London Branch" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/139" xlink:type="simple"/>
+    <floating-price-payer-counterparty name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <underlying-category name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/underlying-categories/109" xlink:type="simple"/>
+    <total-price>
+      <currency>USD</currency>
+      <number>720000.0</number>
+    </total-price>
+    <external-last-modified/>
+    <trade-type id="16" physical="true" type="option-on-fixed-price-physical-flow">
+      <option-terms>
+        <buy-sell>Sell</buy-sell>
+        <put-call>Call</put-call>
+        <american-european>European</american-european>
+        <expiration-date-range-structure type="single-date-range-structure">
+          <expiration-date type="date">2010-12-02T00:00+01:00</expiration-date>
+        </expiration-date-range-structure>
+        <underlying-terms type="physical-flow-sale-terms">
+          <scheduled>false</scheduled>
+          <underlying-def name="European Coal - USD" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/281" xlink:type="simple"/>
+          <volume-structure type="per-block">
+            <unit type="physical-unit">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+            </unit>
+            <unit-volume>2343.75</unit-volume>
+            <total-volume>150000.0</total-volume>
+          </volume-structure>
+          <number-of-settlements>3</number-of-settlements>
+          <unit-value-structure type="same-price-for-every-cashflow">
+            <price>0.0</price>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+          </unit-value-structure>
+          <delivery-structure type="load-shape">
+            <block-size name="1 Month" xlink:href="http://63.240.29.136/xenon/nuon/block-sizes/3" xlink:type="simple"/>
+            <load-shape name="European Coal" xlink:href="http://63.240.29.136/xenon/nuon/load-shapes/103" xlink:type="simple"/>
+            <holiday-schedules-overridden>false</holiday-schedules-overridden>
+            <holiday-schedules>
+              <holiday-schedule name="Platts Product - Europe" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/109" xlink:type="simple"/>
+              <holiday-schedule name="Netherlands" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/115" xlink:type="simple"/>
+            </holiday-schedules>
+            <start-date>2011-01-03T00:00+01:00</start-date>
+            <end-date>2011-04-01T00:00+02:00</end-date>
+            <unadjusted-start-date>2011-01-01T00:00+01:00</unadjusted-start-date>
+            <unadjusted-end-date>2011-03-31T00:00+02:00</unadjusted-end-date>
+          </delivery-structure>
+          <cashflow-terms type="fixed-cashflow-terms">
+            <underlying-def/>
+            <volume-structure type="per-block">
+              <unit type="physical-unit">
+                <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+                <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              </unit>
+              <unit-volume>2343.75</unit-volume>
+              <total-volume>0.0</total-volume>
+            </volume-structure>
+            <buy-sell>buy</buy-sell>
+            <unit-value-structure type="same-price-for-every-cashflow">
+              <price>0.0</price>
+              <unit type="price">
+                <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+                <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+                <currency>USD</currency>
+              </unit>
+            </unit-value-structure>
+            <payment-structure type="relative-to-block">
+              <relative-offset-data>
+                <time-zone-id>GMT</time-zone-id>
+                <time-of-day>
+                  <hours>0</hours>
+                  <minutes>0</minutes>
+                  <seconds>0</seconds>
+                  <milliseconds>0</milliseconds>
+                </time-of-day>
+                <days>5</days>
+                <months>0</months>
+                <business-days>true</business-days>
+                <roll-type>Next</roll-type>
+              </relative-offset-data>
+              <holiday-schedules>
+                <holiday-schedule name="UK Banking" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/103" xlink:type="simple"/>
+              </holiday-schedules>
+            </payment-structure>
+          </cashflow-terms>
+          <buy-sell>Sell</buy-sell>
+          <firmness name="Firm" xlink:href="http://63.240.29.136/xenon/nuon/firmnesses/100" xlink:type="simple"/>
+          <delivery-location id="115" name="Buggenum" xlink:href="http://63.240.29.136/xenon/nuon/delivery-locations/115" xlink:type="simple"/>
+          <balancing-agent name="[NONE]"/>
+          <counterparty-balancing-agent name="Deutsche Bank AG  London Branch" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/139" xlink:type="simple"/>
+          <counterparty-network-code/>
+        </underlying-terms>
+        <strike-terms type="fixed-cashflow-terms">
+          <underlying-def name="European Coal - USD" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/281" xlink:type="simple"/>
+          <volume-structure type="dependent">
+            <unit type="physical-unit">
+              <commodity-definition name="Natural Gas -- TranscoUK Grade" xlink:href="http://63.240.29.136/xenon/nuon/commodities/100" xlink:type="simple"/>
+              <metric abbreviated-name="Therms" name="Therms" xlink:href="http://63.240.29.136/xenon/nuon/metrics/80" xlink:type="simple"/>
+            </unit>
+            <total-volume>0.0</total-volume>
+          </volume-structure>
+          <buy-sell>buy</buy-sell>
+          <unit-value-structure type="same-price-for-every-cashflow">
+            <price>100.0</price>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+          </unit-value-structure>
+          <payment-structure type="relative-to-block">
+            <relative-offset-data>
+              <time-zone-id>GMT</time-zone-id>
+              <time-of-day>
+                <hours>0</hours>
+                <minutes>0</minutes>
+                <seconds>0</seconds>
+                <milliseconds>0</milliseconds>
+              </time-of-day>
+              <days>5</days>
+              <months>0</months>
+              <business-days>true</business-days>
+              <roll-type>Next</roll-type>
+            </relative-offset-data>
+            <holiday-schedules>
+              <holiday-schedule name="UK Banking" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/103" xlink:type="simple"/>
+            </holiday-schedules>
+          </payment-structure>
+        </strike-terms>
+        <premium-terms>
+          <underlying-def name="European Coal - USD" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/281" xlink:type="simple"/>
+          <amount>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+            <number>4.8</number>
+          </amount>
+          <per-unit>true</per-unit>
+          <total-premium>
+            <currency>USD</currency>
+            <number>720000.0</number>
+          </total-premium>
+          <payment-structure type="relative-to-trade-date">
+            <relative-offset-data>
+              <time-zone-id>GMT</time-zone-id>
+              <time-of-day>
+                <hours>0</hours>
+                <minutes>0</minutes>
+                <seconds>0</seconds>
+                <milliseconds>0</milliseconds>
+              </time-of-day>
+              <days>3</days>
+              <months>0</months>
+              <business-days>true</business-days>
+              <roll-type>Next</roll-type>
+            </relative-offset-data>
+            <holiday-schedules>
+              <holiday-schedule name="UK Banking" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/103" xlink:type="simple"/>
+            </holiday-schedules>
+          </payment-structure>
+          <pay-date>2010-03-05T01:00+01:00</pay-date>
+        </premium-terms>
+        <granularity>Single Expiry</granularity>
+        <exercise-type>Automatic</exercise-type>
+      </option-terms>
+      <otc-broker-fee type="per-unit">
+        <total-amount>
+          <currency>USD</currency>
+          <number>0.0</number>
+        </total-amount>
+        <broker-amount>
+          <unit type="price">
+            <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+            <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+            <currency>USD</currency>
+          </unit>
+          <number>0.0</number>
+        </broker-amount>
+        <use-rate-category>false</use-rate-category>
+      </otc-broker-fee>
+    </trade-type>
+    <input-date>2010-03-02T17:02+01:00</input-date>
+    <modification-date>2010-03-02T17:02+01:00</modification-date>
+    <latest-status name="Verified" xlink:href="http://63.240.29.136/xenon/nuon/statuses/3" xlink:type="simple"/>
+    <originating-trade-id/>
+  </trade>
+</deal></deal-id>
+    <deal-id xlink:href="http://63.240.29.136/xenon/nuon/deals/1058365/1/confirm" xlink:type="simple"><deal id="1058365">
+  <header type="physical-otc-trade-header">
+    <otc-broker name="[NONE]"/>
+    <principal-confirm-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/102" xlink:type="simple"/>
+    <cpty-confirm-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/156" xlink:type="simple"/>
+    <counterparty id="131" name="Transfer" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/131" xlink:type="simple"/>
+    <marketer name="[NONE]"/>
+    <cpty-contact/>
+    <cpty-settlement-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/156" xlink:type="simple"/>
+    <principal-settlement-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/102" xlink:type="simple"/>
+    <mta name="[NONE]"/>
+    <counterparty-trader/>
+    <message-type/>
+    <product-type/>
+    <settle>true</settle>
+    <confirm>true</confirm>
+    <internal>true</internal>
+    <invoice-notes/>
+    <confirm-notes/>
+    <version-number>1</version-number>
+    <internal-reference/>
+    <deal-modification-date>2010-07-28T10:45+02:00</deal-modification-date>
+    <comment/>
+    <principal id="103" name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <trade-time>2010-07-28T10:07+02:00</trade-time>
+    <portfolio name="Dummy deals Default" xlink:href="http://63.240.29.136/xenon/nuon/portfolios/118" xlink:type="simple"/>
+    <trader id="893" name="Justo Conde" xlink:href="http://63.240.29.136/xenon/nuon/contacts/893" xlink:type="simple"/>
+    <owner id="893" name="Justo Conde" xlink:href="http://63.240.29.136/xenon/nuon/contacts/893" xlink:type="simple"/>
+    <strategy name="[NONE]"/>
+    <trade-task/>
+    <trading-purpose name="[NONE]"/>
+    <delivery-start-date>2010-12-01T00:00+01:00</delivery-start-date>
+    <delivery-end-date>2011-01-01T00:00+01:00</delivery-end-date>
+    <unadjusted-delivery-start-date>2010-12-01T00:00+01:00</unadjusted-delivery-start-date>
+    <unadjusted-delivery-end-date>2010-12-31T00:00+01:00</unadjusted-delivery-end-date>
+    <total-broker-fee>
+      <currency>USD</currency>
+      <number>0.0</number>
+    </total-broker-fee>
+    <flex-deal>false</flex-deal>
+    <broker-confirm-status>Unconfirmed</broker-confirm-status>
+    <incoming-confirm-status>Unconfirmed</incoming-confirm-status>
+    <outgoing-confirm-status>Unconfirmed</outgoing-confirm-status>
+  </header>
+  <trade id="1058365">
+    <buyer-counterparty name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <seller-counterparty name="Transfer" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/131" xlink:type="simple"/>
+    <fixed-price-payer-counterparty name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <floating-price-payer-counterparty name="Transfer" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/131" xlink:type="simple"/>
+    <underlying-category name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/underlying-categories/109" xlink:type="simple"/>
+    <total-price>
+      <currency>USD</currency>
+      <number>0.0</number>
+    </total-price>
+    <external-last-modified/>
+    <trade-type id="16" physical="true" type="option-on-fixed-price-physical-flow">
+      <option-terms>
+        <buy-sell>Buy</buy-sell>
+        <put-call>Put</put-call>
+        <american-european>European</american-european>
+        <expiration-date-range-structure type="single-date-range-structure">
+          <expiration-date type="date">2010-11-01T00:00+01:00</expiration-date>
+        </expiration-date-range-structure>
+        <underlying-terms type="physical-flow-sale-terms">
+          <scheduled>false</scheduled>
+          <underlying-def name="European Coal - USD" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/281" xlink:type="simple"/>
+          <volume-structure type="per-block">
+            <unit type="physical-unit">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+            </unit>
+            <unit-volume>0.04347826</unit-volume>
+            <total-volume>0.99999998</total-volume>
+          </volume-structure>
+          <number-of-settlements>1</number-of-settlements>
+          <unit-value-structure type="same-price-for-every-cashflow">
+            <price>0.0</price>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+          </unit-value-structure>
+          <delivery-structure type="load-shape">
+            <block-size name="1 Month" xlink:href="http://63.240.29.136/xenon/nuon/block-sizes/3" xlink:type="simple"/>
+            <load-shape name="European Coal" xlink:href="http://63.240.29.136/xenon/nuon/load-shapes/103" xlink:type="simple"/>
+            <holiday-schedules-overridden>false</holiday-schedules-overridden>
+            <holiday-schedules>
+              <holiday-schedule name="Platts Product - Europe" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/109" xlink:type="simple"/>
+              <holiday-schedule name="Netherlands" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/115" xlink:type="simple"/>
+            </holiday-schedules>
+            <start-date>2010-12-01T00:00+01:00</start-date>
+            <end-date>2011-01-01T00:00+01:00</end-date>
+            <unadjusted-start-date>2010-12-01T00:00+01:00</unadjusted-start-date>
+            <unadjusted-end-date>2010-12-31T00:00+01:00</unadjusted-end-date>
+          </delivery-structure>
+          <cashflow-terms type="fixed-cashflow-terms">
+            <underlying-def/>
+            <volume-structure type="per-block">
+              <unit type="physical-unit">
+                <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+                <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              </unit>
+              <unit-volume>0.04347826</unit-volume>
+              <total-volume>0.0</total-volume>
+            </volume-structure>
+            <buy-sell>buy</buy-sell>
+            <unit-value-structure type="same-price-for-every-cashflow">
+              <price>0.0</price>
+              <unit type="price">
+                <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+                <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+                <currency>USD</currency>
+              </unit>
+            </unit-value-structure>
+            <payment-structure type="relative-to-block">
+              <relative-offset-data>
+                <time-zone-id>GMT</time-zone-id>
+                <time-of-day>
+                  <hours>0</hours>
+                  <minutes>0</minutes>
+                  <seconds>0</seconds>
+                  <milliseconds>0</milliseconds>
+                </time-of-day>
+                <days>0</days>
+                <months>0</months>
+                <business-days>true</business-days>
+                <roll-type>Next</roll-type>
+              </relative-offset-data>
+              <holiday-schedules>
+                <holiday-schedule name="UK Banking" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/103" xlink:type="simple"/>
+              </holiday-schedules>
+            </payment-structure>
+          </cashflow-terms>
+          <buy-sell>Sell</buy-sell>
+          <firmness name="Firm" xlink:href="http://63.240.29.136/xenon/nuon/firmnesses/100" xlink:type="simple"/>
+          <delivery-location id="115" name="Buggenum" xlink:href="http://63.240.29.136/xenon/nuon/delivery-locations/115" xlink:type="simple"/>
+          <balancing-agent name="[NONE]"/>
+          <counterparty-balancing-agent name="Transfer" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/131" xlink:type="simple"/>
+          <counterparty-network-code>Transfer--GTS</counterparty-network-code>
+        </underlying-terms>
+        <strike-terms type="fixed-cashflow-terms">
+          <underlying-def name="European Coal - USD" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/281" xlink:type="simple"/>
+          <volume-structure type="dependent">
+            <unit type="physical-unit">
+              <commodity-definition name="Natural Gas -- TranscoUK Grade" xlink:href="http://63.240.29.136/xenon/nuon/commodities/100" xlink:type="simple"/>
+              <metric abbreviated-name="Therms" name="Therms" xlink:href="http://63.240.29.136/xenon/nuon/metrics/80" xlink:type="simple"/>
+            </unit>
+            <total-volume>0.0</total-volume>
+          </volume-structure>
+          <buy-sell>buy</buy-sell>
+          <unit-value-structure type="same-price-for-every-cashflow">
+            <price>150.0</price>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+          </unit-value-structure>
+          <payment-structure type="relative-to-block">
+            <relative-offset-data>
+              <time-zone-id>GMT</time-zone-id>
+              <time-of-day>
+                <hours>0</hours>
+                <minutes>0</minutes>
+                <seconds>0</seconds>
+                <milliseconds>0</milliseconds>
+              </time-of-day>
+              <days>0</days>
+              <months>0</months>
+              <business-days>true</business-days>
+              <roll-type>Next</roll-type>
+            </relative-offset-data>
+            <holiday-schedules>
+              <holiday-schedule name="UK Banking" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/103" xlink:type="simple"/>
+            </holiday-schedules>
+          </payment-structure>
+        </strike-terms>
+        <premium-terms>
+          <underlying-def name="European Coal - USD" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/281" xlink:type="simple"/>
+          <amount>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+            <number>0.0</number>
+          </amount>
+          <per-unit>true</per-unit>
+          <total-premium>
+            <currency>USD</currency>
+            <number>0.0</number>
+          </total-premium>
+          <payment-structure type="relative-to-trade-date">
+            <relative-offset-data>
+              <time-zone-id>GMT</time-zone-id>
+              <time-of-day>
+                <hours>0</hours>
+                <minutes>0</minutes>
+                <seconds>0</seconds>
+                <milliseconds>0</milliseconds>
+              </time-of-day>
+              <days>3</days>
+              <months>0</months>
+              <business-days>true</business-days>
+              <roll-type>Next</roll-type>
+            </relative-offset-data>
+            <holiday-schedules>
+              <holiday-schedule name="UK Banking" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/103" xlink:type="simple"/>
+            </holiday-schedules>
+          </payment-structure>
+          <pay-date>2010-08-02T02:00+02:00</pay-date>
+        </premium-terms>
+        <granularity>Single Expiry</granularity>
+        <exercise-type>Automatic</exercise-type>
+      </option-terms>
+      <otc-broker-fee type="per-unit">
+        <total-amount>
+          <currency>USD</currency>
+          <number>0.0</number>
+        </total-amount>
+        <broker-amount>
+          <unit type="price">
+            <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+            <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+            <currency>USD</currency>
+          </unit>
+          <number>0.0</number>
+        </broker-amount>
+        <use-rate-category>false</use-rate-category>
+      </otc-broker-fee>
+    </trade-type>
+    <input-date>2010-07-28T10:45+02:00</input-date>
+    <modification-date>2010-07-28T10:45+02:00</modification-date>
+    <latest-status name="Unverified" xlink:href="http://63.240.29.136/xenon/nuon/statuses/2" xlink:type="simple"/>
+    <originating-trade-id/>
+  </trade>
+</deal></deal-id>
+    <deal-id xlink:href="http://63.240.29.136/xenon/nuon/deals/1058305/1/confirm" xlink:type="simple"><deal id="1058305">
+  <header type="physical-otc-trade-header">
+    <otc-broker name="[NONE]"/>
+    <principal-confirm-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/102" xlink:type="simple"/>
+    <cpty-confirm-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/156" xlink:type="simple"/>
+    <counterparty id="131" name="Transfer" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/131" xlink:type="simple"/>
+    <marketer name="[NONE]"/>
+    <cpty-contact/>
+    <cpty-settlement-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/156" xlink:type="simple"/>
+    <principal-settlement-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/102" xlink:type="simple"/>
+    <mta name="[NONE]"/>
+    <counterparty-trader/>
+    <message-type/>
+    <product-type/>
+    <settle>true</settle>
+    <confirm>true</confirm>
+    <internal>true</internal>
+    <invoice-notes/>
+    <confirm-notes/>
+    <version-number>1</version-number>
+    <internal-reference/>
+    <deal-modification-date>2010-07-28T10:01+02:00</deal-modification-date>
+    <comment/>
+    <principal id="103" name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <trade-time>2010-07-28T09:50+02:00</trade-time>
+    <portfolio name="Dummy deals Default" xlink:href="http://63.240.29.136/xenon/nuon/portfolios/118" xlink:type="simple"/>
+    <trader id="893" name="Justo Conde" xlink:href="http://63.240.29.136/xenon/nuon/contacts/893" xlink:type="simple"/>
+    <owner id="893" name="Justo Conde" xlink:href="http://63.240.29.136/xenon/nuon/contacts/893" xlink:type="simple"/>
+    <strategy name="[NONE]"/>
+    <trade-task/>
+    <trading-purpose name="[NONE]"/>
+    <delivery-start-date>2010-12-01T00:00+01:00</delivery-start-date>
+    <delivery-end-date>2011-01-01T00:00+01:00</delivery-end-date>
+    <unadjusted-delivery-start-date>2010-12-01T00:00+01:00</unadjusted-delivery-start-date>
+    <unadjusted-delivery-end-date>2010-12-31T00:00+01:00</unadjusted-delivery-end-date>
+    <total-broker-fee>
+      <currency>USD</currency>
+      <number>0.0</number>
+    </total-broker-fee>
+    <flex-deal>false</flex-deal>
+    <broker-confirm-status>Unconfirmed</broker-confirm-status>
+    <incoming-confirm-status>Unconfirmed</incoming-confirm-status>
+    <outgoing-confirm-status>Unconfirmed</outgoing-confirm-status>
+  </header>
+  <trade id="1058305">
+    <buyer-counterparty name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <seller-counterparty name="Transfer" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/131" xlink:type="simple"/>
+    <fixed-price-payer-counterparty name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <floating-price-payer-counterparty name="Transfer" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/131" xlink:type="simple"/>
+    <underlying-category name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/underlying-categories/109" xlink:type="simple"/>
+    <total-price>
+      <currency>USD</currency>
+      <number>0.0</number>
+    </total-price>
+    <external-last-modified/>
+    <trade-type id="16" physical="true" type="option-on-fixed-price-physical-flow">
+      <option-terms>
+        <buy-sell>Buy</buy-sell>
+        <put-call>Put</put-call>
+        <american-european>European</american-european>
+        <expiration-date-range-structure type="single-date-range-structure">
+          <expiration-date type="date">2010-11-01T00:00+01:00</expiration-date>
+        </expiration-date-range-structure>
+        <underlying-terms type="physical-flow-sale-terms">
+          <scheduled>false</scheduled>
+          <underlying-def name="European Coal - USD" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/281" xlink:type="simple"/>
+          <volume-structure type="per-block">
+            <unit type="physical-unit">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+            </unit>
+            <unit-volume>0.04347826</unit-volume>
+            <total-volume>0.99999998</total-volume>
+          </volume-structure>
+          <number-of-settlements>1</number-of-settlements>
+          <unit-value-structure type="same-price-for-every-cashflow">
+            <price>0.0</price>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+          </unit-value-structure>
+          <delivery-structure type="load-shape">
+            <block-size name="1 Month" xlink:href="http://63.240.29.136/xenon/nuon/block-sizes/3" xlink:type="simple"/>
+            <load-shape name="European Coal" xlink:href="http://63.240.29.136/xenon/nuon/load-shapes/103" xlink:type="simple"/>
+            <holiday-schedules-overridden>false</holiday-schedules-overridden>
+            <holiday-schedules>
+              <holiday-schedule name="Platts Product - Europe" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/109" xlink:type="simple"/>
+              <holiday-schedule name="Netherlands" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/115" xlink:type="simple"/>
+            </holiday-schedules>
+            <start-date>2010-12-01T00:00+01:00</start-date>
+            <end-date>2011-01-01T00:00+01:00</end-date>
+            <unadjusted-start-date>2010-12-01T00:00+01:00</unadjusted-start-date>
+            <unadjusted-end-date>2010-12-31T00:00+01:00</unadjusted-end-date>
+          </delivery-structure>
+          <cashflow-terms type="fixed-cashflow-terms">
+            <underlying-def/>
+            <volume-structure type="per-block">
+              <unit type="physical-unit">
+                <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+                <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              </unit>
+              <unit-volume>0.04347826</unit-volume>
+              <total-volume>0.0</total-volume>
+            </volume-structure>
+            <buy-sell>buy</buy-sell>
+            <unit-value-structure type="same-price-for-every-cashflow">
+              <price>0.0</price>
+              <unit type="price">
+                <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+                <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+                <currency>USD</currency>
+              </unit>
+            </unit-value-structure>
+            <payment-structure type="relative-to-block">
+              <relative-offset-data>
+                <time-zone-id>GMT</time-zone-id>
+                <time-of-day>
+                  <hours>0</hours>
+                  <minutes>0</minutes>
+                  <seconds>0</seconds>
+                  <milliseconds>0</milliseconds>
+                </time-of-day>
+                <days>0</days>
+                <months>0</months>
+                <business-days>true</business-days>
+                <roll-type>Next</roll-type>
+              </relative-offset-data>
+              <holiday-schedules>
+                <holiday-schedule name="UK Banking" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/103" xlink:type="simple"/>
+              </holiday-schedules>
+            </payment-structure>
+          </cashflow-terms>
+          <buy-sell>Sell</buy-sell>
+          <firmness name="Firm" xlink:href="http://63.240.29.136/xenon/nuon/firmnesses/100" xlink:type="simple"/>
+          <delivery-location id="115" name="Buggenum" xlink:href="http://63.240.29.136/xenon/nuon/delivery-locations/115" xlink:type="simple"/>
+          <balancing-agent name="[NONE]"/>
+          <counterparty-balancing-agent name="Transfer" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/131" xlink:type="simple"/>
+          <counterparty-network-code>Transfer--GTS</counterparty-network-code>
+        </underlying-terms>
+        <strike-terms type="fixed-cashflow-terms">
+          <underlying-def name="European Coal - USD" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/281" xlink:type="simple"/>
+          <volume-structure type="dependent">
+            <unit type="physical-unit">
+              <commodity-definition name="Natural Gas -- TranscoUK Grade" xlink:href="http://63.240.29.136/xenon/nuon/commodities/100" xlink:type="simple"/>
+              <metric abbreviated-name="Therms" name="Therms" xlink:href="http://63.240.29.136/xenon/nuon/metrics/80" xlink:type="simple"/>
+            </unit>
+            <total-volume>0.0</total-volume>
+          </volume-structure>
+          <buy-sell>buy</buy-sell>
+          <unit-value-structure type="same-price-for-every-cashflow">
+            <price>92.75</price>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+          </unit-value-structure>
+          <payment-structure type="relative-to-block">
+            <relative-offset-data>
+              <time-zone-id>GMT</time-zone-id>
+              <time-of-day>
+                <hours>0</hours>
+                <minutes>0</minutes>
+                <seconds>0</seconds>
+                <milliseconds>0</milliseconds>
+              </time-of-day>
+              <days>0</days>
+              <months>0</months>
+              <business-days>true</business-days>
+              <roll-type>Next</roll-type>
+            </relative-offset-data>
+            <holiday-schedules>
+              <holiday-schedule name="UK Banking" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/103" xlink:type="simple"/>
+            </holiday-schedules>
+          </payment-structure>
+        </strike-terms>
+        <premium-terms>
+          <underlying-def name="European Coal - USD" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/281" xlink:type="simple"/>
+          <amount>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+            <number>0.0</number>
+          </amount>
+          <per-unit>true</per-unit>
+          <total-premium>
+            <currency>USD</currency>
+            <number>0.0</number>
+          </total-premium>
+          <payment-structure type="relative-to-trade-date">
+            <relative-offset-data>
+              <time-zone-id>GMT</time-zone-id>
+              <time-of-day>
+                <hours>0</hours>
+                <minutes>0</minutes>
+                <seconds>0</seconds>
+                <milliseconds>0</milliseconds>
+              </time-of-day>
+              <days>3</days>
+              <months>0</months>
+              <business-days>true</business-days>
+              <roll-type>Next</roll-type>
+            </relative-offset-data>
+            <holiday-schedules>
+              <holiday-schedule name="UK Banking" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/103" xlink:type="simple"/>
+            </holiday-schedules>
+          </payment-structure>
+          <pay-date>2010-08-02T02:00+02:00</pay-date>
+        </premium-terms>
+        <granularity>Single Expiry</granularity>
+        <exercise-type>Automatic</exercise-type>
+      </option-terms>
+      <otc-broker-fee type="per-unit">
+        <total-amount>
+          <currency>USD</currency>
+          <number>0.0</number>
+        </total-amount>
+        <broker-amount>
+          <unit type="price">
+            <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+            <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+            <currency>USD</currency>
+          </unit>
+          <number>0.0</number>
+        </broker-amount>
+        <use-rate-category>false</use-rate-category>
+      </otc-broker-fee>
+    </trade-type>
+    <input-date>2010-07-28T10:01+02:00</input-date>
+    <modification-date>2010-07-28T10:01+02:00</modification-date>
+    <latest-status name="Unverified" xlink:href="http://63.240.29.136/xenon/nuon/statuses/2" xlink:type="simple"/>
+    <originating-trade-id/>
+  </trade>
+</deal></deal-id>
+    <deal-id xlink:href="http://63.240.29.136/xenon/nuon/deals/1058345/1/confirm" xlink:type="simple"><deal id="1058345">
+  <header type="physical-otc-trade-header">
+    <otc-broker name="[NONE]"/>
+    <principal-confirm-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/102" xlink:type="simple"/>
+    <cpty-confirm-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/156" xlink:type="simple"/>
+    <counterparty id="131" name="Transfer" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/131" xlink:type="simple"/>
+    <marketer name="[NONE]"/>
+    <cpty-contact/>
+    <cpty-settlement-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/156" xlink:type="simple"/>
+    <principal-settlement-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/102" xlink:type="simple"/>
+    <mta name="[NONE]"/>
+    <counterparty-trader/>
+    <message-type/>
+    <product-type/>
+    <settle>true</settle>
+    <confirm>true</confirm>
+    <internal>true</internal>
+    <invoice-notes/>
+    <confirm-notes/>
+    <version-number>1</version-number>
+    <internal-reference/>
+    <deal-modification-date>2010-07-28T10:07+02:00</deal-modification-date>
+    <comment/>
+    <principal id="103" name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <trade-time>2010-07-28T10:01+02:00</trade-time>
+    <portfolio name="Dummy deals Default" xlink:href="http://63.240.29.136/xenon/nuon/portfolios/118" xlink:type="simple"/>
+    <trader id="893" name="Justo Conde" xlink:href="http://63.240.29.136/xenon/nuon/contacts/893" xlink:type="simple"/>
+    <owner id="893" name="Justo Conde" xlink:href="http://63.240.29.136/xenon/nuon/contacts/893" xlink:type="simple"/>
+    <strategy name="[NONE]"/>
+    <trade-task/>
+    <trading-purpose name="[NONE]"/>
+    <delivery-start-date>2010-12-01T00:00+01:00</delivery-start-date>
+    <delivery-end-date>2011-01-01T00:00+01:00</delivery-end-date>
+    <unadjusted-delivery-start-date>2010-12-01T00:00+01:00</unadjusted-delivery-start-date>
+    <unadjusted-delivery-end-date>2010-12-31T00:00+01:00</unadjusted-delivery-end-date>
+    <total-broker-fee>
+      <currency>USD</currency>
+      <number>0.0</number>
+    </total-broker-fee>
+    <flex-deal>false</flex-deal>
+    <broker-confirm-status>Unconfirmed</broker-confirm-status>
+    <incoming-confirm-status>Unconfirmed</incoming-confirm-status>
+    <outgoing-confirm-status>Unconfirmed</outgoing-confirm-status>
+  </header>
+  <trade id="1058345">
+    <buyer-counterparty name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <seller-counterparty name="Transfer" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/131" xlink:type="simple"/>
+    <fixed-price-payer-counterparty name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <floating-price-payer-counterparty name="Transfer" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/131" xlink:type="simple"/>
+    <underlying-category name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/underlying-categories/109" xlink:type="simple"/>
+    <total-price>
+      <currency>USD</currency>
+      <number>0.0</number>
+    </total-price>
+    <external-last-modified/>
+    <trade-type id="16" physical="true" type="option-on-fixed-price-physical-flow">
+      <option-terms>
+        <buy-sell>Buy</buy-sell>
+        <put-call>Put</put-call>
+        <american-european>European</american-european>
+        <expiration-date-range-structure type="single-date-range-structure">
+          <expiration-date type="date">2010-11-01T00:00+01:00</expiration-date>
+        </expiration-date-range-structure>
+        <underlying-terms type="physical-flow-sale-terms">
+          <scheduled>false</scheduled>
+          <underlying-def name="European Coal - USD" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/281" xlink:type="simple"/>
+          <volume-structure type="per-block">
+            <unit type="physical-unit">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+            </unit>
+            <unit-volume>0.04347826</unit-volume>
+            <total-volume>0.99999998</total-volume>
+          </volume-structure>
+          <number-of-settlements>1</number-of-settlements>
+          <unit-value-structure type="same-price-for-every-cashflow">
+            <price>0.0</price>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+          </unit-value-structure>
+          <delivery-structure type="load-shape">
+            <block-size name="1 Month" xlink:href="http://63.240.29.136/xenon/nuon/block-sizes/3" xlink:type="simple"/>
+            <load-shape name="European Coal" xlink:href="http://63.240.29.136/xenon/nuon/load-shapes/103" xlink:type="simple"/>
+            <holiday-schedules-overridden>false</holiday-schedules-overridden>
+            <holiday-schedules>
+              <holiday-schedule name="Platts Product - Europe" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/109" xlink:type="simple"/>
+              <holiday-schedule name="Netherlands" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/115" xlink:type="simple"/>
+            </holiday-schedules>
+            <start-date>2010-12-01T00:00+01:00</start-date>
+            <end-date>2011-01-01T00:00+01:00</end-date>
+            <unadjusted-start-date>2010-12-01T00:00+01:00</unadjusted-start-date>
+            <unadjusted-end-date>2010-12-31T00:00+01:00</unadjusted-end-date>
+          </delivery-structure>
+          <cashflow-terms type="fixed-cashflow-terms">
+            <underlying-def/>
+            <volume-structure type="per-block">
+              <unit type="physical-unit">
+                <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+                <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              </unit>
+              <unit-volume>0.04347826</unit-volume>
+              <total-volume>0.0</total-volume>
+            </volume-structure>
+            <buy-sell>buy</buy-sell>
+            <unit-value-structure type="same-price-for-every-cashflow">
+              <price>0.0</price>
+              <unit type="price">
+                <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+                <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+                <currency>USD</currency>
+              </unit>
+            </unit-value-structure>
+            <payment-structure type="relative-to-block">
+              <relative-offset-data>
+                <time-zone-id>GMT</time-zone-id>
+                <time-of-day>
+                  <hours>0</hours>
+                  <minutes>0</minutes>
+                  <seconds>0</seconds>
+                  <milliseconds>0</milliseconds>
+                </time-of-day>
+                <days>0</days>
+                <months>0</months>
+                <business-days>true</business-days>
+                <roll-type>Next</roll-type>
+              </relative-offset-data>
+              <holiday-schedules>
+                <holiday-schedule name="UK Banking" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/103" xlink:type="simple"/>
+              </holiday-schedules>
+            </payment-structure>
+          </cashflow-terms>
+          <buy-sell>Sell</buy-sell>
+          <firmness name="Firm" xlink:href="http://63.240.29.136/xenon/nuon/firmnesses/100" xlink:type="simple"/>
+          <delivery-location id="115" name="Buggenum" xlink:href="http://63.240.29.136/xenon/nuon/delivery-locations/115" xlink:type="simple"/>
+          <balancing-agent name="[NONE]"/>
+          <counterparty-balancing-agent name="Transfer" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/131" xlink:type="simple"/>
+          <counterparty-network-code>Transfer--GTS</counterparty-network-code>
+        </underlying-terms>
+        <strike-terms type="fixed-cashflow-terms">
+          <underlying-def name="European Coal - USD" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/281" xlink:type="simple"/>
+          <volume-structure type="dependent">
+            <unit type="physical-unit">
+              <commodity-definition name="Natural Gas -- TranscoUK Grade" xlink:href="http://63.240.29.136/xenon/nuon/commodities/100" xlink:type="simple"/>
+              <metric abbreviated-name="Therms" name="Therms" xlink:href="http://63.240.29.136/xenon/nuon/metrics/80" xlink:type="simple"/>
+            </unit>
+            <total-volume>0.0</total-volume>
+          </volume-structure>
+          <buy-sell>buy</buy-sell>
+          <unit-value-structure type="same-price-for-every-cashflow">
+            <price>10.0</price>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+          </unit-value-structure>
+          <payment-structure type="relative-to-block">
+            <relative-offset-data>
+              <time-zone-id>GMT</time-zone-id>
+              <time-of-day>
+                <hours>0</hours>
+                <minutes>0</minutes>
+                <seconds>0</seconds>
+                <milliseconds>0</milliseconds>
+              </time-of-day>
+              <days>0</days>
+              <months>0</months>
+              <business-days>true</business-days>
+              <roll-type>Next</roll-type>
+            </relative-offset-data>
+            <holiday-schedules>
+              <holiday-schedule name="UK Banking" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/103" xlink:type="simple"/>
+            </holiday-schedules>
+          </payment-structure>
+        </strike-terms>
+        <premium-terms>
+          <underlying-def name="European Coal - USD" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/281" xlink:type="simple"/>
+          <amount>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+            <number>0.0</number>
+          </amount>
+          <per-unit>true</per-unit>
+          <total-premium>
+            <currency>USD</currency>
+            <number>0.0</number>
+          </total-premium>
+          <payment-structure type="relative-to-trade-date">
+            <relative-offset-data>
+              <time-zone-id>GMT</time-zone-id>
+              <time-of-day>
+                <hours>0</hours>
+                <minutes>0</minutes>
+                <seconds>0</seconds>
+                <milliseconds>0</milliseconds>
+              </time-of-day>
+              <days>3</days>
+              <months>0</months>
+              <business-days>true</business-days>
+              <roll-type>Next</roll-type>
+            </relative-offset-data>
+            <holiday-schedules>
+              <holiday-schedule name="UK Banking" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/103" xlink:type="simple"/>
+            </holiday-schedules>
+          </payment-structure>
+          <pay-date>2010-08-02T02:00+02:00</pay-date>
+        </premium-terms>
+        <granularity>Single Expiry</granularity>
+        <exercise-type>Automatic</exercise-type>
+      </option-terms>
+      <otc-broker-fee type="per-unit">
+        <total-amount>
+          <currency>USD</currency>
+          <number>0.0</number>
+        </total-amount>
+        <broker-amount>
+          <unit type="price">
+            <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+            <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+            <currency>USD</currency>
+          </unit>
+          <number>0.0</number>
+        </broker-amount>
+        <use-rate-category>false</use-rate-category>
+      </otc-broker-fee>
+    </trade-type>
+    <input-date>2010-07-28T10:07+02:00</input-date>
+    <modification-date>2010-07-28T10:07+02:00</modification-date>
+    <latest-status name="Unverified" xlink:href="http://63.240.29.136/xenon/nuon/statuses/2" xlink:type="simple"/>
+    <originating-trade-id/>
+  </trade>
+</deal></deal-id>
+    <deal-id xlink:href="http://63.240.29.136/xenon/nuon/deals/871265/2/confirm" xlink:type="simple"><deal id="871265">
+  <header type="physical-otc-trade-header">
+    <otc-broker name="[NONE]"/>
+    <principal-confirm-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/102" xlink:type="simple"/>
+    <cpty-confirm-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/165" xlink:type="simple"/>
+    <counterparty id="139" name="Deutsche Bank AG  London Branch" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/139" xlink:type="simple"/>
+    <marketer name="[NONE]"/>
+    <cpty-contact/>
+    <cpty-settlement-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/165" xlink:type="simple"/>
+    <principal-settlement-contact-group name="Default" xlink:href="http://63.240.29.136/xenon/nuon/contact-groups/102" xlink:type="simple"/>
+    <mta name="[NONE]"/>
+    <counterparty-trader/>
+    <message-type/>
+    <product-type/>
+    <settle>true</settle>
+    <confirm>true</confirm>
+    <internal>false</internal>
+    <invoice-notes/>
+    <confirm-notes/>
+    <version-number>2</version-number>
+    <internal-reference/>
+    <deal-modification-date>2010-03-02T17:27+01:00</deal-modification-date>
+    <comment/>
+    <principal id="103" name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <trade-time>2010-03-02T16:47+01:00</trade-time>
+    <portfolio name="Proprietary" xlink:href="http://63.240.29.136/xenon/nuon/portfolios/102" xlink:type="simple"/>
+    <trader id="481" name="Alexandre Claude" xlink:href="http://63.240.29.136/xenon/nuon/contacts/481" xlink:type="simple"/>
+    <owner id="481" name="Alexandre Claude" xlink:href="http://63.240.29.136/xenon/nuon/contacts/481" xlink:type="simple"/>
+    <strategy name="[NONE]"/>
+    <trade-task/>
+    <trading-purpose name="[NONE]"/>
+    <delivery-start-date>2011-01-03T00:00+01:00</delivery-start-date>
+    <delivery-end-date>2011-04-01T00:00+02:00</delivery-end-date>
+    <unadjusted-delivery-start-date>2011-01-01T00:00+01:00</unadjusted-delivery-start-date>
+    <unadjusted-delivery-end-date>2011-03-31T00:00+02:00</unadjusted-delivery-end-date>
+    <total-broker-fee>
+      <currency>USD</currency>
+      <number>0.0</number>
+    </total-broker-fee>
+    <flex-deal>false</flex-deal>
+    <broker-confirm-status>Unconfirmed</broker-confirm-status>
+    <incoming-confirm-status>Unconfirmed</incoming-confirm-status>
+    <outgoing-confirm-status>Unconfirmed</outgoing-confirm-status>
+  </header>
+  <trade id="871265">
+    <buyer-counterparty name="Deutsche Bank AG  London Branch" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/139" xlink:type="simple"/>
+    <seller-counterparty name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <fixed-price-payer-counterparty name="Deutsche Bank AG  London Branch" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/139" xlink:type="simple"/>
+    <floating-price-payer-counterparty name="n.v. Nuon" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/103" xlink:type="simple"/>
+    <underlying-category name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/underlying-categories/109" xlink:type="simple"/>
+    <total-price>
+      <currency>USD</currency>
+      <number>580500.0</number>
+    </total-price>
+    <external-last-modified/>
+    <trade-type id="16" physical="true" type="option-on-fixed-price-physical-flow">
+      <option-terms>
+        <buy-sell>Sell</buy-sell>
+        <put-call>Put</put-call>
+        <american-european>European</american-european>
+        <expiration-date-range-structure type="single-date-range-structure">
+          <expiration-date type="date">2010-12-02T00:00+01:00</expiration-date>
+        </expiration-date-range-structure>
+        <underlying-terms type="physical-flow-sale-terms">
+          <scheduled>false</scheduled>
+          <underlying-def name="European Coal - USD" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/281" xlink:type="simple"/>
+          <volume-structure type="per-block">
+            <unit type="physical-unit">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+            </unit>
+            <unit-volume>2343.75</unit-volume>
+            <total-volume>150000.0</total-volume>
+          </volume-structure>
+          <number-of-settlements>3</number-of-settlements>
+          <unit-value-structure type="same-price-for-every-cashflow">
+            <price>0.0</price>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+          </unit-value-structure>
+          <delivery-structure type="load-shape">
+            <block-size name="1 Month" xlink:href="http://63.240.29.136/xenon/nuon/block-sizes/3" xlink:type="simple"/>
+            <load-shape name="European Coal" xlink:href="http://63.240.29.136/xenon/nuon/load-shapes/103" xlink:type="simple"/>
+            <holiday-schedules-overridden>false</holiday-schedules-overridden>
+            <holiday-schedules>
+              <holiday-schedule name="Platts Product - Europe" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/109" xlink:type="simple"/>
+              <holiday-schedule name="Netherlands" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/115" xlink:type="simple"/>
+            </holiday-schedules>
+            <start-date>2011-01-03T00:00+01:00</start-date>
+            <end-date>2011-04-01T00:00+02:00</end-date>
+            <unadjusted-start-date>2011-01-01T00:00+01:00</unadjusted-start-date>
+            <unadjusted-end-date>2011-03-31T00:00+02:00</unadjusted-end-date>
+          </delivery-structure>
+          <cashflow-terms type="fixed-cashflow-terms">
+            <underlying-def/>
+            <volume-structure type="per-block">
+              <unit type="physical-unit">
+                <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+                <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              </unit>
+              <unit-volume>2343.75</unit-volume>
+              <total-volume>0.0</total-volume>
+            </volume-structure>
+            <buy-sell>sell</buy-sell>
+            <unit-value-structure type="same-price-for-every-cashflow">
+              <price>0.0</price>
+              <unit type="price">
+                <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+                <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+                <currency>USD</currency>
+              </unit>
+            </unit-value-structure>
+            <payment-structure type="relative-to-block">
+              <relative-offset-data>
+                <time-zone-id>GMT</time-zone-id>
+                <time-of-day>
+                  <hours>0</hours>
+                  <minutes>0</minutes>
+                  <seconds>0</seconds>
+                  <milliseconds>0</milliseconds>
+                </time-of-day>
+                <days>5</days>
+                <months>0</months>
+                <business-days>true</business-days>
+                <roll-type>Next</roll-type>
+              </relative-offset-data>
+              <holiday-schedules>
+                <holiday-schedule name="UK Banking" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/103" xlink:type="simple"/>
+              </holiday-schedules>
+            </payment-structure>
+          </cashflow-terms>
+          <buy-sell>Buy</buy-sell>
+          <firmness name="Firm" xlink:href="http://63.240.29.136/xenon/nuon/firmnesses/100" xlink:type="simple"/>
+          <delivery-location id="115" name="Buggenum" xlink:href="http://63.240.29.136/xenon/nuon/delivery-locations/115" xlink:type="simple"/>
+          <balancing-agent name="[NONE]"/>
+          <counterparty-balancing-agent name="Deutsche Bank AG  London Branch" xlink:href="http://63.240.29.136/xenon/nuon/counterparties/139" xlink:type="simple"/>
+          <counterparty-network-code/>
+        </underlying-terms>
+        <strike-terms type="fixed-cashflow-terms">
+          <underlying-def name="European Coal - USD" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/281" xlink:type="simple"/>
+          <volume-structure type="dependent">
+            <unit type="physical-unit">
+              <commodity-definition name="Natural Gas -- TranscoUK Grade" xlink:href="http://63.240.29.136/xenon/nuon/commodities/100" xlink:type="simple"/>
+              <metric abbreviated-name="Therms" name="Therms" xlink:href="http://63.240.29.136/xenon/nuon/metrics/80" xlink:type="simple"/>
+            </unit>
+            <total-volume>0.0</total-volume>
+          </volume-structure>
+          <buy-sell>sell</buy-sell>
+          <unit-value-structure type="same-price-for-every-cashflow">
+            <price>80.0</price>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+          </unit-value-structure>
+          <payment-structure type="relative-to-block">
+            <relative-offset-data>
+              <time-zone-id>GMT</time-zone-id>
+              <time-of-day>
+                <hours>0</hours>
+                <minutes>0</minutes>
+                <seconds>0</seconds>
+                <milliseconds>0</milliseconds>
+              </time-of-day>
+              <days>5</days>
+              <months>0</months>
+              <business-days>true</business-days>
+              <roll-type>Next</roll-type>
+            </relative-offset-data>
+            <holiday-schedules>
+              <holiday-schedule name="UK Banking" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/103" xlink:type="simple"/>
+            </holiday-schedules>
+          </payment-structure>
+        </strike-terms>
+        <premium-terms>
+          <underlying-def name="European Coal - USD" xlink:href="http://63.240.29.136/xenon/nuon/underlyings/281" xlink:type="simple"/>
+          <amount>
+            <unit type="price">
+              <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+              <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+              <currency>USD</currency>
+            </unit>
+            <number>3.87</number>
+          </amount>
+          <per-unit>true</per-unit>
+          <total-premium>
+            <currency>USD</currency>
+            <number>580500.0</number>
+          </total-premium>
+          <payment-structure type="relative-to-trade-date">
+            <relative-offset-data>
+              <time-zone-id>GMT</time-zone-id>
+              <time-of-day>
+                <hours>0</hours>
+                <minutes>0</minutes>
+                <seconds>0</seconds>
+                <milliseconds>0</milliseconds>
+              </time-of-day>
+              <days>3</days>
+              <months>0</months>
+              <business-days>true</business-days>
+              <roll-type>Next</roll-type>
+            </relative-offset-data>
+            <holiday-schedules>
+              <holiday-schedule name="UK Banking" xlink:href="http://63.240.29.136/xenon/nuon/holiday-schedules/103" xlink:type="simple"/>
+            </holiday-schedules>
+          </payment-structure>
+          <pay-date>2010-03-05T01:00+01:00</pay-date>
+        </premium-terms>
+        <granularity>Single Expiry</granularity>
+        <exercise-type>Automatic</exercise-type>
+      </option-terms>
+      <otc-broker-fee type="per-unit">
+        <total-amount>
+          <currency>USD</currency>
+          <number>0.0</number>
+        </total-amount>
+        <broker-amount>
+          <unit type="price">
+            <commodity-definition name="Coal" xlink:href="http://63.240.29.136/xenon/nuon/commodities/144" xlink:type="simple"/>
+            <metric abbreviated-name="MT" name="Metric Ton" xlink:href="http://63.240.29.136/xenon/nuon/metrics/106" xlink:type="simple"/>
+            <currency>USD</currency>
+          </unit>
+          <number>0.0</number>
+        </broker-amount>
+        <use-rate-category>false</use-rate-category>
+      </otc-broker-fee>
+    </trade-type>
+    <input-date>2010-03-02T17:02+01:00</input-date>
+    <modification-date>2010-03-02T17:27+01:00</modification-date>
+    <latest-status name="Verified" xlink:href="http://63.240.29.136/xenon/nuon/statuses/3" xlink:type="simple"/>
+    <originating-trade-id/>
+  </trade>
+</deal></deal-id>
+  </deals>
+</trade-query-result>

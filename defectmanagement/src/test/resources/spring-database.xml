@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xmlns:context="http://www.springframework.org/schema/context"
+   xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd  http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context-2.5.xsd"
+           default-autowire="byName">
+
+ <context:annotation-config />
+    <context:component-scan base-package="se.awesomoe.pm" />
+    <bean id="databaseProperties" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+             <property name="location" value="classpath:/database.properties"/>
+       </bean>
+
+   
+  <bean
+          
+          
+    id="dataSource"
+    class="org.apache.commons.dbcp.BasicDataSource"
+    destroy-method="close"
+    p:defaultAutoCommit="true"
+    p:driverClassName="${db.driverClassName}"
+    p:url="${db.ip}"
+    p:username="${db.username}"
+    p:password="${db.password}"
+    />
+
+
+
+     <bean
+    id="jdbcTemplate"
+    class="org.springframework.jdbc.core.JdbcTemplate"
+    p:dataSource-ref="dataSource" />
+
+      <bean id="jdbcorderDao" class="se.awesomoe.pm.model.omorder.daoAdmin.OrderDaoJdbcImpl">
+     </bean>
+
+    <bean id="orderManagerService"
+            class="se.awesomoe.pm.model.omorder.manager.OrderManagementServiceCenterImpl" />
+
+
+
+</beans>
