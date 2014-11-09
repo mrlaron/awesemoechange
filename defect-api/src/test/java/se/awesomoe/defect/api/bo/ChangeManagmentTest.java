@@ -20,6 +20,7 @@ public class ChangeManagmentTest {
 		changeReStub = new StubChangeRepository();
 		
 		
+		
 	}
 
 	@Test
@@ -34,7 +35,7 @@ public class ChangeManagmentTest {
 		if (ch instanceof Request) {
 			System.out.println( "Request " + ((Request)ch).isApproved()   + " " + ch.getInformation() );
 		}
-		  System.out.println(ch.getComponent());
+		  System.out.println("comp " + ch.getComponent());
 		
 		
 		fail("Not yet implemented");
