@@ -4,12 +4,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import se.awesomoe.defetct.api.bo.Change;
-import se.awesomoe.defetct.api.bo.Component;
-import se.awesomoe.defetct.api.bo.Defect;
-import se.awesomoe.defetct.api.bo.Request;
-import se.awesomoe.defetct.api.bo.Severity;
-import se.awesomoe.defetct.api.bo.internal.ChangeRepository;
+import se.awesomoe.defect.model.Change;
+import se.awesomoe.defect.model.Component;
+import se.awesomoe.defect.model.Defect;
+import se.awesomoe.defect.model.Request;
+import se.awesomoe.defect.model.Severity;
+import se.awesomoe.defect.model.internal.ChangeRepository;
 
 public class StubChangeRepository implements ChangeRepository {
 	

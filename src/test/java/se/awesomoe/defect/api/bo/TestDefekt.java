@@ -11,13 +11,13 @@ import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
 
-import se.awesomoe.defetct.api.bo.Change;
-import se.awesomoe.defetct.api.bo.Component;
-import se.awesomoe.defetct.api.bo.Defect;
-import se.awesomoe.defetct.api.bo.Program;
-import se.awesomoe.defetct.api.bo.Request;
-import se.awesomoe.defetct.api.bo.Severity;
-import se.awesomoe.defetct.api.bo.Version;
+import se.awesomoe.defect.model.Change;
+import se.awesomoe.defect.model.Component;
+import se.awesomoe.defect.model.Defect;
+import se.awesomoe.defect.model.Program;
+import se.awesomoe.defect.model.Request;
+import se.awesomoe.defect.model.Severity;
+import se.awesomoe.defect.model.Version;
 //@Ignore
 public class TestDefekt {
 
@@ -71,7 +71,7 @@ public class TestDefekt {
 			}
 		}
 
-		assertTrue(found);		
+		assertTrue(found);
 	}
 
 	@Test

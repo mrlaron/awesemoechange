@@ -10,9 +10,9 @@ import java.util.Set;
 import org.junit.Before;
 import org.junit.Test;
 
-import se.awesomoe.defetct.api.bo.Component;
-import se.awesomoe.defetct.api.bo.Program;
-import se.awesomoe.defetct.api.bo.Version;
+import se.awesomoe.defect.model.Component;
+import se.awesomoe.defect.model.Program;
+import se.awesomoe.defect.model.Version;
 
 public class TestComponents {
 

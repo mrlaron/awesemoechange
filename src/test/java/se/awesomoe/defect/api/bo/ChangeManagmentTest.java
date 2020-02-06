@@ -6,9 +6,9 @@ import org.junit.Before;
 import org.junit.Test;
 
 import se.awesomoe.defect.api.bo.repository.StubChangeRepository;
-import se.awesomoe.defetct.api.bo.Change;
-import se.awesomoe.defetct.api.bo.Defect;
-import se.awesomoe.defetct.api.bo.Request;
+import se.awesomoe.defect.model.Change;
+import se.awesomoe.defect.model.Defect;
+import se.awesomoe.defect.model.Request;
 
 public class ChangeManagmentTest {
 
@@ -25,6 +25,7 @@ public class ChangeManagmentTest {
 
 	@Test
 	public void test() {
+
 		Change ch = changeReStub.findChangebyId("1235");
 		if (ch instanceof Defect) {
 			System.out.println( "Defect " + ((Defect)ch).getWorkaround() + " " + ch.getInformation() );
@@ -38,7 +39,7 @@ public class ChangeManagmentTest {
 		  System.out.println("comp " + ch.getComponent());
 		
 		
-		fail("Not yet implemented");
+		assertTrue(ch.getAgentNr().equals("1234"));
 	}
 
 }

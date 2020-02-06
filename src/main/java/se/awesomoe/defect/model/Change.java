@@ -1,8 +1,7 @@
-package se.awesomoe.defetct.api.bo;
+package se.awesomoe.defect.model;
 
 import java.util.Date;
-import java.util.HashSet;
-import java.util.Set;
+
 /**
  * This class stores  the general information about a change 
  *  

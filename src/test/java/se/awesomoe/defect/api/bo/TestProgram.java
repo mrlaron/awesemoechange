@@ -9,9 +9,9 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runners.Parameterized.Parameters;
 
-import se.awesomoe.defetct.api.bo.Developer;
-import se.awesomoe.defetct.api.bo.Program;
-import se.awesomoe.defetct.api.bo.Version;
+import se.awesomoe.defect.model.Developer;
+import se.awesomoe.defect.model.Program;
+import se.awesomoe.defect.model.Version;
 /**
  * The purpose of these tests is to verify the relationships and logic of the 
  * Program. 

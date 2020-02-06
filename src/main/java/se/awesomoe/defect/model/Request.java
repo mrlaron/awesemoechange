@@ -1,4 +1,4 @@
-package se.awesomoe.defetct.api.bo;
+package se.awesomoe.defect.model;
 /**
  * 
  * @author lars.g.mellberg

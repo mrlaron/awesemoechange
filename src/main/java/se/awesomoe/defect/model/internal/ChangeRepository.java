@@ -1,8 +1,8 @@
-package se.awesomoe.defetct.api.bo.internal;
+package se.awesomoe.defect.model.internal;
 
 import java.util.List;
 
-import se.awesomoe.defetct.api.bo.Change;
+import se.awesomoe.defect.model.Change;
 
 /**
  * 
