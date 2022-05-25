@@ -17,7 +17,7 @@
 	</parent>
 
 	<properties>
-		<org.springframework.version>3.0.6.RELEASE</org.springframework.version>
+		<org.springframework.version>5.2.22.RELEASE</org.springframework.version>
 		<org.hibernate.version.entitymanager>3.4.0.GA</org.hibernate.version.entitymanager>
 		<org.hibernate.version.annotations>3.3.0.ga</org.hibernate.version.annotations>
 		<org.hibernate.version.annotations.latest>3.4.0.GA</org.hibernate.version.annotations.latest>
