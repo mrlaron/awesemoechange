@@ -19,7 +19,7 @@
     <org.hibernate.version.entitymanager>3.4.0.GA</org.hibernate.version.entitymanager>
     <org.hibernate.version.annotations>3.3.0.ga</org.hibernate.version.annotations>
     <org.hibernate.version.annotations.latest>3.4.0.GA</org.hibernate.version.annotations.latest>
-    <org.hibernate.version.core>3.3.2.GA</org.hibernate.version.core>
+    <org.hibernate.version.core>5.3.20.Final</org.hibernate.version.core>
 </properties>
 	
 	
